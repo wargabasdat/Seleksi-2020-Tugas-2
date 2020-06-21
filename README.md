@@ -37,9 +37,10 @@
     - Author
 
 7. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    A. Simpan ke database online
-    B. Buatlah API sederhana untuk mengakses database online tersebut
-    C. ...
+    1. Simpan ke database online
+    2. Buatlah API sederhana untuk mengakses database online tersebut
+    3. ...
+
 
 <h3 align="center">
   <br>
