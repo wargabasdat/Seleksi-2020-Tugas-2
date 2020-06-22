@@ -52,3 +52,5 @@ gk_kicking INT NOT NULL,
 gk_reflexes INT NOT NULL);
 
 \copy players FROM 'C:\Users\windows\Documents\GitHub\Seleksi-2020-Tugas-1\data\txt_FIFA.csv' WITH (FORMAT csv);
+
+C:\Program Files\PostgreSQL\12\bin>pg_dump -U postgres -p 5432 -d fifa_index -W -f C:\Users\windows\Documents\GitHub\Seleksi-2020-Tugas-2\export\FIFA.sql
