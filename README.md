@@ -13,6 +13,25 @@
 </h2>
 
 
+## Description of The DBMS
+
+  Saya menggunakan mongoDB dikarenakan modul yang disediakan oleh mongoDB itu sudah tersedia di banyak Bahasa Pemrograman. Selain itu juga
+  API yang disediakan sangat membantu, misalnya ketika kita ingin menginput data ke database kita telah disediakan method untuk melakukan input tersebut.
+  Untuk input banyak data kita sudah disediakan input_one(client,data), sedangkan  untuk input banyak kita sudah disediakan input_many(client,data[]). Ketika
+  kita ingin mencari data dari database kita sudah disediakan method find(). Selain itu kita juga bisa melakukan visualisasi data kita yang telah disediakan oleh mongoDB.
+
+## Screenshot
+  <p align = "center">
+<img src = "screenshots/data1.png">
+</p>
+
+## Refrence
+  1. mongodb : untuk melakukan connect database dengan node js, melakukan insert data ke database, dan membuat API untuk melihat data yang ada di database.
+
+## Author
+
+Fatkhan Masruri - 13518053
+
 ## Specifications
 
 ### Data Storing
@@ -40,8 +59,6 @@
     1. Simpan ke database online
     2. Buatlah API sederhana untuk mengakses database online tersebut
     3. ...
-
-
 <h3 align="center">
   <br>
   Lab Basdat 2020
