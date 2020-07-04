@@ -48,3 +48,27 @@
   <br>
   <br>
 </h3>
+
+Deskripsi DBMS
+Pada tugas ini, saya menggunakan DBMS PostgreSQL yang menggunakan bahasa SQL. Saya memilih DBMS ini karena bahasanya cukup mudah dimengerti dan karena sudah terbiasa menggunakan SQL di kuliah pbd dan mbd. PostgreSQL juga memiliki aplikasi bernama pgAdmin yang memperbolehkan penggunanya mengatur databasenya dengan lebih mudah karena mimiliki interface, alih-alih membuat query pada command prompt. Selain itu, mengingat SQL adalah bahasa yang paling umum digunakan sebagai asisten lab basdat, saya rasa dengan menggunakan postgreSQL, saya akan lebih biasa menggunakan bahasa SQL untuk membantu saya ketika menjadi asisten nanti.
+
+Screenshot
+![screenshot1](/screenshots/screenshot1.jpg)
+![screenshot2](/screenshots/screenshot2.jpg)
+
+Reference
+https://stackoverflow.com/questions/39224382/how-can-i-import-a-json-file-into-postgresql
+menggunakan json_populate_recordset untuk mengubah json menjadi sql
+pertama, buat tabel dengan 1 kolom dan 1 row untuk menampung kode json, lalu pindahkan json ke tabel utama dengan query:
+insert into anime_list (rank, name, score,type)
+select p.*
+from customer_import l
+  cross join lateral json_populate_recordset(null::anime_list, doc) as p
+on conflict (rank) do update 
+  set name = excluded.name, 
+      score = excluded.score,
+	  type = excluded.type;
+
+Author
+Vincentius Ian Widi Nugroho
+18218034
