@@ -31,6 +31,9 @@ Karena penyimpanan database seperti dokumen sehingga mudah di akses
 1. mongoimport
 2. mongoexport
 
+## Author
+13518067 Tifany Angelia
+
 ## Specifications
 
 ### Data Storing
