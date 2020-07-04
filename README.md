@@ -13,8 +13,19 @@
 </h2>
 
 ## Description of the DBMS
+Karena penyimpanan database seperti dokumen sehingga mudah di akses
 
 ## Screenshoot
+![](screenshots/Import2db_1.png)
+![](screenshots/Import2db_2.png)
+![](screenshots/Import2db_3.png)
+![](screenshots/Import2db_4.png)
+![](screenshots/Import2db_5.png)
+![](screenshots/Import2db_6.png)
+![](screenshots/Export2json_1.png)
+![](screenshots/Export2json_2.png)
+![](screenshots/Export2json_3.png)
+![](screenshots/Export2json_4.png)
 
 ## Reference
 1. mongoimport
