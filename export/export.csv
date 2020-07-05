@@ -1,0 +1,472 @@
+_id,name,processor,clockspeed,score.singlecore,score.multicore
+5f019f0d5ec1300dec25f8ac,OnePlus 8,Qualcomm Snapdragon 865,1.8,904,3318
+5f019f0d5ec1300dec25f8ad,OnePlus 8 Pro,Qualcomm Snapdragon 865,1.8,891,3251
+5f019f0d5ec1300dec25f8ae,Samsung Galaxy S20 Ultra 5G,Qualcomm Snapdragon 865,1.8,840,3108
+5f019f0d5ec1300dec25f8af,Samsung Galaxy S20 5G,Qualcomm Snapdragon 865,1.8,812,3076
+5f019f0d5ec1300dec25f8b0,Samsung Galaxy S20+ 5G,Qualcomm Snapdragon 865,1.8,810,3091
+5f019f0d5ec1300dec25f8b1,Samsung Galaxy S20 Ultra,Samsung Exynos 990,2,808,2698
+5f019f0d5ec1300dec25f8b2,Samsung Galaxy S20,Samsung Exynos 990,2,767,2628
+5f019f0d5ec1300dec25f8b3,Huawei Mate 30 Pro 5G,HiSilicon Kirin 990,2,766,3056
+5f019f0d5ec1300dec25f8b4,Samsung Galaxy S10 5G,Samsung Exynos 9820,2,764,2153
+5f019f0d5ec1300dec25f8b5,Samsung Galaxy S10+,Samsung Exynos 9820,2,759,2103
+5f019f0d5ec1300dec25f8b6,Huawei Mate 30 Pro,HiSilicon Kirin 990,1.9,759,2879
+5f019f0d5ec1300dec25f8b7,OnePlus 7T Pro 5G,Qualcomm Snapdragon 855+,1.8,759,2683
+5f019f0d5ec1300dec25f8b8,OnePlus 7T,Qualcomm Snapdragon 855+,1.8,757,2675
+5f019f0d5ec1300dec25f8b9,OnePlus 7T Pro,Qualcomm Snapdragon 855+,1.8,757,2673
+5f019f0d5ec1300dec25f8ba,Samsung Galaxy S20+,Samsung Exynos 990,2,753,2648
+5f019f0d5ec1300dec25f8bb,Samsung Galaxy Note10+ 5G,Samsung Exynos 9825,2,751,2137
+5f019f0d5ec1300dec25f8bc,Samsung Galaxy S10,Samsung Exynos 9820,2,750,2058
+5f019f0d5ec1300dec25f8bd,Samsung Galaxy S10e,Samsung Exynos 9820,2,749,2077
+5f019f0d5ec1300dec25f8be,Vivo iQOO Pro 5G,Qualcomm Snapdragon 855+,1.8,746,2697
+5f019f0d5ec1300dec25f8bf,ZTE nubia Red Magic 3,Qualcomm Snapdragon 855,1.8,735,2461
+5f019f0d5ec1300dec25f8c0,OnePlus 7 Pro,Qualcomm Snapdragon 855,1.8,729,2667
+5f019f0d5ec1300dec25f8c1,Samsung Galaxy Note10+,Samsung Exynos 9825,2,728,2087
+5f019f0d5ec1300dec25f8c2,OnePlus 7,Qualcomm Snapdragon 855,1.8,724,2613
+5f019f0d5ec1300dec25f8c3,Asus Zenfone 6 ZS630KL,Qualcomm Snapdragon 855,1.8,723,2448
+5f019f0d5ec1300dec25f8c4,Sony Xperia 5,Qualcomm Snapdragon 855,1.8,722,2591
+5f019f0d5ec1300dec25f8c5,Samsung Galaxy Note10 5G,Samsung Exynos 9825,2,721,2098
+5f019f0d5ec1300dec25f8c6,Sony Xperia 1,Qualcomm Snapdragon 855,1.8,719,2628
+5f019f0d5ec1300dec25f8c7,Asus ROG Phone II,Qualcomm Snapdragon 855+,1.8,713,2443
+5f019f0d5ec1300dec25f8c8,Samsung Galaxy Tab S6,Qualcomm Snapdragon 855,1.8,712,2456
+5f019f0d5ec1300dec25f8c9,Realme X2 Pro,Qualcomm Snapdragon 855+,1.8,711,2464
+5f019f0d5ec1300dec25f8ca,LG G8S ThinQ,Qualcomm Snapdragon 855,1.8,708,2503
+5f019f0d5ec1300dec25f8cb,LG G8 ThinQ,Qualcomm Snapdragon 855,1.8,703,2458
+5f019f0d5ec1300dec25f8cc,Samsung Galaxy Note10+ 5G,Qualcomm Snapdragon 855,1.8,703,2510
+5f019f0d5ec1300dec25f8cd,Samsung Galaxy Note10,Qualcomm Snapdragon 855,1.8,699,2538
+5f019f0d5ec1300dec25f8ce,Samsung Galaxy Fold 5G,Qualcomm Snapdragon 855,1.8,699,2521
+5f019f0d5ec1300dec25f8cf,Samsung Galaxy S10e,Qualcomm Snapdragon 855,1.8,696,2454
+5f019f0d5ec1300dec25f8d0,Samsung Galaxy Note10+,Qualcomm Snapdragon 855,1.8,694,2503
+5f019f0d5ec1300dec25f8d1,Samsung Galaxy S10,Qualcomm Snapdragon 855,1.8,693,2493
+5f019f0d5ec1300dec25f8d2,LG V50 ThinQ 5G,Qualcomm Snapdragon 855,1.8,691,2435
+5f019f0d5ec1300dec25f8d3,LG V50S ThinQ 5G,Qualcomm Snapdragon 855,1.8,689,2358
+5f019f0d5ec1300dec25f8d4,Samsung Galaxy S10+,Qualcomm Snapdragon 855,1.8,687,2476
+5f019f0d5ec1300dec25f8d5,Huawei Honor View 20,HiSilicon Kirin 980,1.8,686,2420
+5f019f0d5ec1300dec25f8d6,Huawei Mate 20 X,HiSilicon Kirin 980,1.8,686,2393
+5f019f0d5ec1300dec25f8d7,Oppo Reno 10x Zoom,Qualcomm Snapdragon 855,1.8,685,2619
+5f019f0d5ec1300dec25f8d8,Huawei P30 Pro,HiSilicon Kirin 980,1.8,684,2362
+5f019f0d5ec1300dec25f8d9,Huawei Huawei P30,HiSilicon Kirin 980,1.8,684,2399
+5f019f0d5ec1300dec25f8da,Huawei Honor 20 Pro,HiSilicon Kirin 980,1.8,684,2353
+5f019f0d5ec1300dec25f8db,Samsung Galaxy A90 5G,Qualcomm Snapdragon 855,1.8,684,2484
+5f019f0d5ec1300dec25f8dc,Huawei Mate 20,HiSilicon Kirin 980,1.8,682,2305
+5f019f0d5ec1300dec25f8dd,Xiaomi Redmi K20 Pro Premium Edition,Qualcomm Snapdragon 855+,1.8,682,2522
+5f019f0d5ec1300dec25f8de,Huawei Mate 20 Pro,HiSilicon Kirin 980,1.8,681,2303
+5f019f0d5ec1300dec25f8df,Huawei Honor 20,HiSilicon Kirin 980,1.8,680,2235
+5f019f0d5ec1300dec25f8e0,Huawei nova 5T,HiSilicon Kirin 980,1.8,678,2204
+5f019f0d5ec1300dec25f8e1,Samsung Galaxy S10 Lite,Qualcomm Snapdragon 855,1.8,678,2524
+5f019f0d5ec1300dec25f8e2,Xiaomi Mi 9,Qualcomm Snapdragon 855,1.8,674,2563
+5f019f0d5ec1300dec25f8e3,Xiaomi Mi 9T Pro,Qualcomm Snapdragon 855,1.8,674,2519
+5f019f0d5ec1300dec25f8e4,Xiaomi Redmi K20 Pro,Qualcomm Snapdragon 855,1.8,654,2405
+5f019f0d5ec1300dec25f8e5,Google Pixel 4 XL,Qualcomm Snapdragon 855,1.8,646,2385
+5f019f0d5ec1300dec25f8e6,Samsung Galaxy S9+,Samsung Exynos 9810,1.8,608,1923
+5f019f0d5ec1300dec25f8e7,Samsung Galaxy Note 9,Samsung Exynos 9810,1.8,606,1932
+5f019f0d5ec1300dec25f8e8,Samsung Galaxy S9,Samsung Exynos 9810,1.8,601,1885
+5f019f0d5ec1300dec25f8e9,Google Pixel 4,Qualcomm Snapdragon 855,1.8,598,2204
+5f019f0d5ec1300dec25f8ea,Huawei Honor 9X,HiSilicon Kirin 810,1.9,589,1878
+5f019f0d5ec1300dec25f8eb,Xiaomi Black Shark 2,Qualcomm Snapdragon 855,1.8,562,2141
+5f019f0d5ec1300dec25f8ec,Oppo Reno2,Qualcomm Snapdragon 730G,1.8,539,1696
+5f019f0d5ec1300dec25f8ed,Samsung Galaxy Note10 Lite,Samsung Exynos 9810,1.8,536,1718
+5f019f0d5ec1300dec25f8ee,Xiaomi Mi 9T,Qualcomm Snapdragon 730,1.8,528,1656
+5f019f0d5ec1300dec25f8ef,Xiaomi Mi Note 10,Qualcomm Snapdragon 730G,1.8,523,1657
+5f019f0d5ec1300dec25f8f0,Xiaomi Redmi K20,Qualcomm Snapdragon 730,1.8,520,1608
+5f019f0d5ec1300dec25f8f1,Samsung Galaxy A80,Qualcomm Snapdragon 730,1.8,515,1645
+5f019f0d5ec1300dec25f8f2,Asus Zenfone 5z,Qualcomm Snapdragon 845,1.8,507,2167
+5f019f0d5ec1300dec25f8f3,HTC U12+,Qualcomm Snapdragon 845,1.8,505,2062
+5f019f0d5ec1300dec25f8f4,OnePlus 6,Qualcomm Snapdragon 845,1.8,504,2210
+5f019f0d5ec1300dec25f8f5,OnePlus 6T,Qualcomm Snapdragon 845,1.8,504,2254
+5f019f0d5ec1300dec25f8f6,Asus ROG Phone,Qualcomm Snapdragon 845,1.8,504,2104
+5f019f0d5ec1300dec25f8f7,Sony Xperia XZ2 Compact,Qualcomm Snapdragon 845,1.8,503,2137
+5f019f0d5ec1300dec25f8f8,Razer Phone 2,Qualcomm Snapdragon 845,1.8,503,2171
+5f019f0d5ec1300dec25f8f9,Sony Xperia XZ2,Qualcomm Snapdragon 845,1.8,502,2098
+5f019f0d5ec1300dec25f8fa,Samsung Galaxy A71,Qualcomm Snapdragon 730,1.8,502,1619
+5f019f0d5ec1300dec25f8fb,Vivo NEX S,Qualcomm Snapdragon 845,1.8,499,2247
+5f019f0d5ec1300dec25f8fc,Xiaomi Redmi Note 7 Pro,Qualcomm Snapdragon 675,1.7,498,1460
+5f019f0d5ec1300dec25f8fd,Vivo V15 Pro,Qualcomm Snapdragon 675,1.7,496,1553
+5f019f0d5ec1300dec25f8fe,Meizu 16th,Qualcomm Snapdragon 845,1.8,495,2202
+5f019f0d5ec1300dec25f8ff,Google Pixel 3 XL,Qualcomm Snapdragon 845,1.8,488,1986
+5f019f0d5ec1300dec25f900,Samsung Galaxy Note 9,Qualcomm Snapdragon 845,1.8,482,2017
+5f019f0d5ec1300dec25f901,Samsung Galaxy A70,Qualcomm Snapdragon 675,1.7,476,1524
+5f019f0d5ec1300dec25f902,LG G7 ThinQ,Qualcomm Snapdragon 845,1.8,475,1935
+5f019f0d5ec1300dec25f903,Samsung Galaxy S9+,Qualcomm Snapdragon 845,1.8,474,2027
+5f019f0d5ec1300dec25f904,Google Pixel 3,Qualcomm Snapdragon 845,1.8,472,1855
+5f019f0d5ec1300dec25f905,Samsung Galaxy S9,Qualcomm Snapdragon 845,1.8,468,1957
+5f019f0d5ec1300dec25f906,Xiaomi Mi Mix 3,Qualcomm Snapdragon 845,1.8,453,2027
+5f019f0d5ec1300dec25f907,Xiaomi Mix 2S,Qualcomm Snapdragon 845,1.8,452,1855
+5f019f0d5ec1300dec25f908,LG V35 ThinQ,Qualcomm Snapdragon 845,1.8,449,1973
+5f019f0d5ec1300dec25f909,Xiaomi Mi 8,Qualcomm Snapdragon 845,1.8,447,1894
+5f019f0d5ec1300dec25f90a,Xiaomi Pocophone F1,Qualcomm Snapdragon 845,1.8,441,1771
+5f019f0d5ec1300dec25f90b,Xiaomi Black Shark,Qualcomm Snapdragon 845,1.8,433,1901
+5f019f0d5ec1300dec25f90c,LG V40 ThinQ,Qualcomm Snapdragon 845,1.8,423,1852
+5f019f0d5ec1300dec25f90d,Xiaomi Poco F1,Qualcomm Snapdragon 845,1.8,422,1712
+5f019f0d5ec1300dec25f90e,Xiaomi Black Shark Helo,Qualcomm Snapdragon 845,1.8,409,1790
+5f019f0d5ec1300dec25f90f,Xiaomi Mi 9 SE,Qualcomm Snapdragon 712,1.7,403,1441
+5f019f0d5ec1300dec25f910,Vivo Z1Pro,Qualcomm Snapdragon 712,1.7,393,1441
+5f019f0d5ec1300dec25f911,HTC U11+,Qualcomm Snapdragon 835,1.9,385,1478
+5f019f0d5ec1300dec25f912,OnePlus 5T,Qualcomm Snapdragon 835,1.9,383,1648
+5f019f0d5ec1300dec25f913,Razer Phone,Qualcomm Snapdragon 835,1.9,383,1680
+5f019f0d5ec1300dec25f914,Xiaomi Mi 8 SE,Qualcomm Snapdragon 710,1.7,382,1416
+5f019f0d5ec1300dec25f915,Xiaomi Mi 9 Lite,Qualcomm Snapdragon 710,1.7,382,1452
+5f019f0d5ec1300dec25f916,HTC U11,Qualcomm Snapdragon 835,1.9,381,1467
+5f019f0d5ec1300dec25f917,Sony Xperia XZ1 Compact,Qualcomm Snapdragon 835,1.9,380,1618
+5f019f0d5ec1300dec25f918,Huawei Nova 2s,Hisilicon Kirin 960,1.8,380,1511
+5f019f0d5ec1300dec25f919,Huawei P10,Hisilicon Kirin 960,1.8,377,1438
+5f019f0d5ec1300dec25f91a,Huawei Honor 8 Pro,Hisilicon Kirin 960,1.8,377,1496
+5f019f0d5ec1300dec25f91b,Nokia 8,Qualcomm Snapdragon 835,1.9,377,1565
+5f019f0d5ec1300dec25f91c,Huawei P10 Plus,Hisilicon Kirin 960,1.8,376,1400
+5f019f0d5ec1300dec25f91d,Huawei Honor 9,Hisilicon Kirin 960,1.8,376,1531
+5f019f0d5ec1300dec25f91e,Motorola Moto Z2 Force,Qualcomm Snapdragon 835,1.9,376,1591
+5f019f0d5ec1300dec25f91f,Huawei Honor V9,Hisilicon Kirin 960,1.8,375,1442
+5f019f0d5ec1300dec25f920,Essential PH-1,Qualcomm Snapdragon 835,1.9,375,1539
+5f019f0d5ec1300dec25f921,Meizu 15 Plus,Samsung Exynos 8895 Octa,1.7,374,1508
+5f019f0d5ec1300dec25f922,Huawei Mate 9,Hisilicon Kirin 960,1.8,373,1448
+5f019f0d5ec1300dec25f923,Xiaomi Mi Mix 2,Qualcomm Snapdragon 835,1.9,373,1479
+5f019f0d5ec1300dec25f924,Huawei Honor V8 Max,HiSilicon Kirin 955,1.8,372,1336
+5f019f0d5ec1300dec25f925,Sony Xperia XZ Premium,Qualcomm Snapdragon 835,1.9,370,1451
+5f019f0d5ec1300dec25f926,Realme 3 Pro,Qualcomm Snapdragon 710,1.7,370,1440
+5f019f0d5ec1300dec25f927,Realme XT,Qualcomm Snapdragon 712,1.7,370,1453
+5f019f0d5ec1300dec25f928,Realme 5 Pro,Qualcomm Snapdragon 712,1.7,369,1451
+5f019f0d5ec1300dec25f929,Xiaomi MI 6,Qualcomm Snapdragon 835,1.9,367,1478
+5f019f0d5ec1300dec25f92a,Sony Xperia XZ1,Qualcomm Snapdragon 835,1.9,367,1443
+5f019f0d5ec1300dec25f92b,ZTE Nubia Z17,Qualcomm Snapdragon 835,1.9,366,1425
+5f019f0d5ec1300dec25f92c,Huawei Honor V8,HiSilicon Kirin 950,1.8,365,1281
+5f019f0d5ec1300dec25f92d,Realme X,Qualcomm Snapdragon 710,1.7,365,1437
+5f019f0d5ec1300dec25f92e,LG V30,Qualcomm Snapdragon 835,1.9,363,1482
+5f019f0d5ec1300dec25f92f,Samsung Galaxy S8,Samsung Exynos 8895 Octa,1.7,359,1444
+5f019f0d5ec1300dec25f930,Samsung Galaxy Note 8,Samsung Exynos 8895 Octa,1.7,358,1410
+5f019f0d5ec1300dec25f931,Samsung Galaxy S8+,Samsung Exynos 8895 Octa,1.7,357,1394
+5f019f0d5ec1300dec25f932,Google Pixel 2,Qualcomm Snapdragon 835,1.9,357,1492
+5f019f0d5ec1300dec25f933,Samsung Galaxy Tab S4 10.5,Qualcomm Snapdragon 835,1.9,357,1480
+5f019f0d5ec1300dec25f934,Google Pixel 2 XL,Qualcomm Snapdragon 835,1.9,354,1490
+5f019f0d5ec1300dec25f935,Huawei Honor View 10,HiSilicon Kirin 970,1.8,351,1437
+5f019f0d5ec1300dec25f936,Google Pixel 3a XL,Qualcomm Snapdragon 670,1.7,347,1311
+5f019f0d5ec1300dec25f937,Oppo Reno,Qualcomm Snapdragon 710,1.7,345,1451
+5f019f0d5ec1300dec25f938,Vivo S1,Mediatek MT6768 Helio P65,1.7,345,1259
+5f019f0d5ec1300dec25f939,Samsung Galaxy Note 8,Qualcomm Snapdragon 835,1.9,344,1502
+5f019f0d5ec1300dec25f93a,Google Pixel 3a,Qualcomm Snapdragon 670,1.7,344,1289
+5f019f0d5ec1300dec25f93b,Vivo S1,Mediatek MT6768 Helio P65,1.7,343,1259
+5f019f0d5ec1300dec25f93c,Samsung Galaxy S7,Samsung Exynos 8890,1.6,342,1157
+5f019f0d5ec1300dec25f93d,Samsung Galaxy S8 Active,Qualcomm Snapdragon 835,1.9,342,1434
+5f019f0d5ec1300dec25f93e,Huawei P9 Plus,HiSilicon Kirin 955,1.8,341,1089
+5f019f0d5ec1300dec25f93f,Samsung Galaxy S8,Qualcomm Snapdragon 835,1.9,340,1454
+5f019f0d5ec1300dec25f940,Huawei P9,HiSilicon Kirin 955,1.8,339,1029
+5f019f0d5ec1300dec25f941,Samsung Galaxy S8+,Qualcomm Snapdragon 835,1.9,339,1437
+5f019f0d5ec1300dec25f942,Huawei Honor 10,HiSilicon Kirin 970,1.8,336,1345
+5f019f0d5ec1300dec25f943,Smartisan M1L,Qualcomm Snapdragon 821,2.2,336,655
+5f019f0d5ec1300dec25f944,Qihoo 360 N6 Pro,Qualcomm Snapdragon 660,1.8,336,1434
+5f019f0d5ec1300dec25f945,Samsung Galaxy Tab S5e,Qualcomm Snapdragon 670,1.7,336,1410
+5f019f0d5ec1300dec25f946,Huawei Honor 8,HiSilicon Kirin 950,1.8,335,1209
+5f019f0d5ec1300dec25f947,Huawei Mate 8,HiSilicon Kirin 950,1.8,335,1233
+5f019f0d5ec1300dec25f948,Smartisan Nut Pro 2,Qualcomm Snapdragon 660,1.8,335,1398
+5f019f0d5ec1300dec25f949,Lenovo ZUK Edge,Qualcomm Snapdragon 821,2.2,335,849
+5f019f0d5ec1300dec25f94a,Vivo X20A,Qualcomm Snapdragon 660,1.8,333,1465
+5f019f0d5ec1300dec25f94b,Samsung Galaxy A50,Samsung Exynos 9610,1.7,333,1177
+5f019f0d5ec1300dec25f94c,Xiaomi Redmi Note 7,Qualcomm Snapdragon 660,1.8,333,1282
+5f019f0d5ec1300dec25f94d,Huawei MediaPad M3 8.4,HiSilicon Kirin 950,1.8,332,1182
+5f019f0d5ec1300dec25f94e,Huawei Honor 8X,HiSilicon Kirin 710,1.7,332,1321
+5f019f0d5ec1300dec25f94f,Motorola One Action,Samsung Exynos 9609,1.6,332,1277
+5f019f0d5ec1300dec25f950,Xiaomi Mi Pad 4,Qualcomm Snapdragon 660,1.8,332,1390
+5f019f0d5ec1300dec25f951,OnePlus 3T,Qualcomm Snapdragon 821,2.2,331,777
+5f019f0d5ec1300dec25f952,Huawei Mate 20 lite,HiSilicon Kirin 710,1.7,331,1302
+5f019f0d5ec1300dec25f953,Xiaomi Mi A2,Qualcomm Snapdragon 660,1.8,331,1244
+5f019f0d5ec1300dec25f954,Xiaomi Mi 8 Lite,Qualcomm Snapdragon 660,1.8,331,1391
+5f019f0d5ec1300dec25f955,Huawei Honor 8X,HiSilicon Kirin 710,1.7,331,1321
+5f019f0d5ec1300dec25f956,Xiaomi Mi Note 3,Qualcomm Snapdragon 660,1.8,330,1391
+5f019f0d5ec1300dec25f957,Nokia 7 Plus,Qualcomm Snapdragon 660,1.8,330,1377
+5f019f0d5ec1300dec25f958,Xiaomi Redmi Note 7S,Qualcomm Snapdragon 660,1.8,330,1141
+5f019f0d5ec1300dec25f959,Xiaomi Mi Note 2,Qualcomm MSM8996 Pro-AB Snapdragon 821,2.2,328,810
+5f019f0d5ec1300dec25f95a,Huawei nova 3i,HiSilicon Kirin 710,1.7,328,1282
+5f019f0d5ec1300dec25f95b,Xiaomi Mi A2,Qualcomm Snapdragon 660,1.8,327,1244
+5f019f0d5ec1300dec25f95c,Huawei Y9 (2019),HiSilicon Kirin 710,1.7,327,1157
+5f019f0d5ec1300dec25f95d,Huawei P Smart Z,HiSilicon Kirin 710F,1.7,325,1326
+5f019f0d5ec1300dec25f95e,Huawei Mate 9 Pro,Hisilicon Kirin 960,1.8,324,1284
+5f019f0d5ec1300dec25f95f,Vivo Xplay 6,Qualcomm Snapdragon 820,1.6,324,784
+5f019f0d5ec1300dec25f960,Samsung Galaxy S7 edge,Samsung Exynos 8890,1.6,323,1147
+5f019f0d5ec1300dec25f961,Xiaomi MI 5s Plus,Qualcomm MSM8996 Pro-AB Snapdragon 821,2.2,323,813
+5f019f0d5ec1300dec25f962,Samsung Galaxy A50s,Samsung Exynos 9611,1.7,322,1153
+5f019f0d5ec1300dec25f963,Huawei Honor 9X,HiSilicon Kirin 710F,1.7,322,1322
+5f019f0d5ec1300dec25f964,Huawei Y9 Prime (2019),HiSilicon Kirin 710F,1.7,322,1306
+5f019f0d5ec1300dec25f965,HTC Nexus 9,NVIDIA Tegra K1 Denver,2.5,320,554
+5f019f0d5ec1300dec25f966,Xiaomi Mi Mix,Qualcomm MSM8996 Pro-AB Snapdragon 821,2.2,320,780
+5f019f0d5ec1300dec25f967,ZTE Nubia Z17S,Qualcomm Snapdragon 835,1.9,320,1298
+5f019f0d5ec1300dec25f968,Samsung Galaxy M30s,Samsung Exynos 9611,1.7,320,1190
+5f019f0d5ec1300dec25f969,Xiaomi Mi Pad 3,Mediatek MT8176,1.7,319,775
+5f019f0d5ec1300dec25f96a,Huawei Y9s,HiSilicon Kirin 710F,1.7,319,1299
+5f019f0d5ec1300dec25f96b,Samsung Galaxy A51,Samsung Exynos 9611,1.7,316,1201
+5f019f0d5ec1300dec25f96c,Xiaomi MI 5s,Qualcomm MSM8996 Pro-AB Snapdragon 821,2,315,841
+5f019f0d5ec1300dec25f96d,ZTE Axon 7,Qualcomm Snapdragon 820,1.6,315,799
+5f019f0d5ec1300dec25f96e,OPPO R11,Qualcomm Snapdragon 660,1.8,315,1393
+5f019f0d5ec1300dec25f96f,Asus Zenpad 3S 10,Mediatek MT8176,1.7,314,737
+5f019f0d5ec1300dec25f970,Huawei P smart 2019,HiSilicon Kirin 710,1.7,314,1177
+5f019f0d5ec1300dec25f971,Huawei P30 lite,HiSilicon Kirin 710,1.7,314,1261
+5f019f0d5ec1300dec25f972,LG G5,Qualcomm Snapdragon 820,1.6,313,728
+5f019f0d5ec1300dec25f973,Lenovo ZUK Z2 Pro,Qualcomm Snapdragon 820,1.6,313,841
+5f019f0d5ec1300dec25f974,Huawei Honor 10 Lite,HiSilicon Kirin 710,1.7,313,1181
+5f019f0d5ec1300dec25f975,Vivo X20,Qualcomm Snapdragon 660,1.8,312,1380
+5f019f0d5ec1300dec25f976,HTC U Ultra,Qualcomm Snapdragon 821,2,311,806
+5f019f0d5ec1300dec25f977,Xiaomi Mi A3,Qualcomm Snapdragon 665,1.8,310,1344
+5f019f0d5ec1300dec25f978,Realme 5,Qualcomm Snapdragon 665,1.8,310,1310
+5f019f0d5ec1300dec25f979,OnePlus 3,Qualcomm Snapdragon 820,1.6,309,774
+5f019f0d5ec1300dec25f97a,Google Pixel XL,Qualcomm MSM8996 Pro-AB Snapdragon 821,1.6,308,860
+5f019f0d5ec1300dec25f97b,Lenovo ZUK Z2,Qualcomm Snapdragon 820,1.6,308,761
+5f019f0d5ec1300dec25f97c,Samsung Galaxy A8 (2018),Samsung Exynos 7885 Octa,1.6,308,990
+5f019f0d5ec1300dec25f97d,Xiaomi Redmi Note 8T,Qualcomm Snapdragon 665,1.8,308,1301
+5f019f0d5ec1300dec25f97e,Xiaomi Mi 5,Qualcomm Snapdragon 820,1.6,307,770
+5f019f0d5ec1300dec25f97f,Xiaomi Redmi Note 8,Qualcomm Snapdragon 665,1.8,307,1297
+5f019f0d5ec1300dec25f980,Google Pixel,Qualcomm MSM8996 Pro-AB Snapdragon 821,1.6,306,846
+5f019f0d5ec1300dec25f981,Meizu Pro 7,Mediatek MT6799 Helio X30,1.9,304,1155
+5f019f0d5ec1300dec25f982,Samsung Galaxy A8+ (2018),Samsung Exynos 7885 Octa,1.6,301,942
+5f019f0d5ec1300dec25f983,Oppo F11 Pro,Mediatek Helio P70,2,300,1383
+5f019f0d5ec1300dec25f984,UMi Z Pro,Mediatek Helio X27,1.5,299,1028
+5f019f0d5ec1300dec25f985,Meizu Pro 7 Plus,Mediatek MT6799 Helio X30,1.9,297,1229
+5f019f0d5ec1300dec25f986,Samsung Galaxy A9 (2018),Qualcomm Snapdragon 660,1.8,297,1329
+5f019f0d5ec1300dec25f987,Samsung Galaxy A7,Samsung Exynos 7885 Octa,1.6,296,968
+5f019f0d5ec1300dec25f988,LeEco Le Pro3,Qualcomm MSM8996 Pro-AB Snapdragon 821,2.2,295,817
+5f019f0d5ec1300dec25f989,Sony Xperia XZs,Qualcomm Snapdragon 820,1.6,294,729
+5f019f0d5ec1300dec25f98a,LeEco Le Max 2,Qualcomm Snapdragon 820,1.6,291,804
+5f019f0d5ec1300dec25f98b,Asus Zenfone Max Pro (M2),Qualcomm Snapdragon 660,1.8,290,1204
+5f019f0d5ec1300dec25f98c,Meizu PRO 6 Plus,Samsung Exynos 8890,1.5,289,834
+5f019f0d5ec1300dec25f98d,Sony Xperia X Performance,Qualcomm Snapdragon 820,1.6,289,726
+5f019f0d5ec1300dec25f98e,Sony Xperia XZ,Qualcomm Snapdragon 820,1.6,287,704
+5f019f0d5ec1300dec25f98f,LG V20,Qualcomm Snapdragon 820,1.6,287,642
+5f019f0d5ec1300dec25f990,LG G6,Qualcomm MSM8996 Pro-AB Snapdragon 821,2.2,287,695
+5f019f0d5ec1300dec25f991,Motorola Moto Z,Qualcomm Snapdragon 820,1.6,286,741
+5f019f0d5ec1300dec25f992,HTC 10,Qualcomm Snapdragon 820,1.6,283,746
+5f019f0d5ec1300dec25f993,Oppo F7,Mediatek MT6771 Helio P60,2,283,1284
+5f019f0d5ec1300dec25f994,Asus Zenfone 5 Max,Qualcomm Snapdragon 660,1.6,283,1180
+5f019f0d5ec1300dec25f995,Meizu S6,Samsung Exynos 7885 Octa,1.6,283,766
+5f019f0d5ec1300dec25f996,NVIDIA SHIELD Android TV,NVIDIA Tegra X1,2,283,992
+5f019f0d5ec1300dec25f997,Realme 3,Mediatek Helio P70,2,283,1116
+5f019f0d5ec1300dec25f998,Oppo F9 Pro,Mediatek MT6771 Helio P60,2,283,1318
+5f019f0d5ec1300dec25f999,Oppo Realme 1,Mediatek MT6771 Helio P60,2,282,1287
+5f019f0d5ec1300dec25f99a,Samsung Galaxy Tab S3,Qualcomm Snapdragon 820,1.6,281,790
+5f019f0d5ec1300dec25f99b,Oppo F9,Mediatek MT6771 Helio P60,2,281,1278
+5f019f0d5ec1300dec25f99c,ZTE Nubia Z11,Qualcomm Snapdragon 820,1.6,277,727
+5f019f0d5ec1300dec25f99d,Asus Zenpad Z10,Qualcomm Snapdragon 650,1.4,275,830
+5f019f0d5ec1300dec25f99e,Xiaomi Mi Max 3,Qualcomm Snapdragon 636,1.6,275,1193
+5f019f0d5ec1300dec25f99f,Realme 3,Mediatek MT6771 Helio P60,2,274,1126
+5f019f0d5ec1300dec25f9a0,Xiaomi Redmi Note 5 Pro,Qualcomm Snapdragon 636,1.6,273,1097
+5f019f0d5ec1300dec25f9a1,Vivo X7,Qualcomm Snapdragon 652,1.4,273,931
+5f019f0d5ec1300dec25f9a2,Xiaomi Redmi Note 6 Pro,Qualcomm Snapdragon 636,1.6,273,1097
+5f019f0d5ec1300dec25f9a3,Asus Zenfone Max Pro (M1),Qualcomm Snapdragon 636,1.6,272,1127
+5f019f0d5ec1300dec25f9a4,Xiaomi Redmi Note 5 AI,Qualcomm Snapdragon 636,1.6,272,1130
+5f019f0d5ec1300dec25f9a5,Asus ZenFone Max Pro (M1),Qualcomm Snapdragon 636,1.6,272,1151
+5f019f0d5ec1300dec25f9a6,Nokia 6.1 Plus,Qualcomm Snapdragon 636,1.6,271,1184
+5f019f0d5ec1300dec25f9a7,Sony Xperia X Compact,Qualcomm Snapdragon 650,1.4,269,810
+5f019f0d5ec1300dec25f9a8,Samsung Galaxy S7,Qualcomm Snapdragon 820,1.6,268,709
+5f019f0d5ec1300dec25f9a9,Motorola Moto G7 Power,Qualcomm Snapdragon 632,1.8,268,1097
+5f019f0d5ec1300dec25f9aa,Motorola Moto G7,Qualcomm Snapdragon 632,1.8,268,1162
+5f019f0d5ec1300dec25f9ab,Sony Xperia X,Qualcomm Snapdragon 650,1.4,266,710
+5f019f0d5ec1300dec25f9ac,Meizu MX6,Mediatek MT6797 Helio X20,1.4,264,789
+5f019f0d5ec1300dec25f9ad,Vivo X9 Plus,Qualcomm Snapdragon 653,1.4,263,1051
+5f019f0d5ec1300dec25f9ae,Samsung Galaxy S7 Active,Qualcomm Snapdragon 820,1.6,262,732
+5f019f0d5ec1300dec25f9af,Xiaomi Redmi Note 3,Qualcomm Snapdragon 650,1.4,261,696
+5f019f0d5ec1300dec25f9b0,Sony Xperia Z4 Tablet (Wi-Fi),Qualcomm Snapdragon 810,1.6,261,723
+5f019f0d5ec1300dec25f9b1,Samsung Galaxy A40,Samsung Exynos 7904,1.6,261,949
+5f019f0d5ec1300dec25f9b2,Samsung Galaxy M20,Samsung Exynos 7904,1.6,261,945
+5f019f0d5ec1300dec25f9b3,Samsung Galaxy Tab S2 8.0,Samsung Exynos 5433,1.4,260,846
+5f019f0d5ec1300dec25f9b4,Xiaomi Redmi 7,Qualcomm Snapdragon 632,1.8,260,1016
+5f019f0d5ec1300dec25f9b5,Samsung Galaxy A30s,Samsung Exynos 7904,1.6,260,948
+5f019f0d5ec1300dec25f9b6,Samsung Galaxy Tab S2 9.7 (2016),Qualcomm Snapdragon 652,1.4,259,975
+5f019f0d5ec1300dec25f9b7,Xiaomi MI MAX,Qualcomm Snapdragon 650,1.4,256,745
+5f019f0d5ec1300dec25f9b8,Google Pixel C,NVIDIA Tegra X1,1.9,256,893
+5f019f0d5ec1300dec25f9b9,LeEco Coolpad Cool1 dual,Qualcomm Snapdragon 652,1.4,256,701
+5f019f0d5ec1300dec25f9ba,Samsung Galaxy A30,Samsung Exynos 7904,1.6,256,932
+5f019f0d5ec1300dec25f9bb,Samsung Galaxy Tab S2 8.0,Qualcomm Snapdragon 652,1.4,255,853
+5f019f0d5ec1300dec25f9bc,ZTE Nubia Z17 Mini,Qualcomm Snapdragon 652,1.4,254,694
+5f019f0d5ec1300dec25f9bd,Samsung Galaxy S7 edge,Qualcomm Snapdragon 820,1.6,253,721
+5f019f0d5ec1300dec25f9be,LeEco Le 2,Qualcomm Snapdragon 652,1.4,251,733
+5f019f0d5ec1300dec25f9bf,Asus Zenpad Z8,Qualcomm Snapdragon 650,1.4,249,709
+5f019f0d5ec1300dec25f9c0,Meizu Pro 6s,Mediatek MT6797T Helio X25,1.5,246,955
+5f019f0d5ec1300dec25f9c1,Samsung Galaxy A8 (2016),Samsung Exynos 7420,1.5,246,963
+5f019f0d5ec1300dec25f9c2,Samsung Galaxy S6 Active,Samsung Exynos 7420,1.5,245,965
+5f019f0d5ec1300dec25f9c3,Asus Zenfone 3 Ultra,Qualcomm Snapdragon 652,1.4,245,909
+5f019f0d5ec1300dec25f9c4,Samsung Galaxy S6 edge+,Samsung Exynos 7420,1.5,244,933
+5f019f0d5ec1300dec25f9c5,Lenovo Yoga Tab 3 Plus,Qualcomm Snapdragon 625,1.4,244,761
+5f019f0d5ec1300dec25f9c6,Smartron srt.phone,Qualcomm Snapdragon 652,1.4,243,414
+5f019f0d5ec1300dec25f9c7,Samsung Galaxy S6 edge,Samsung Exynos 7420,1.5,241,916
+5f019f0d5ec1300dec25f9c8,Meizu PRO 5,Samsung Exynos 7420,1.5,241,971
+5f019f0d5ec1300dec25f9c9,Sony Xperia Z4,Qualcomm Snapdragon 810,1.6,240,598
+5f019f0d5ec1300dec25f9ca,Samsung Galaxy A20e,Samsung Exynos 7884,1.4,235,853
+5f019f0d5ec1300dec25f9cb,Samsung Galaxy S6,Samsung Exynos 7420,1.5,234,900
+5f019f0d5ec1300dec25f9cc,Samsung Galaxy Note5 Duos,Samsung Exynos 7420,1.5,234,906
+5f019f0d5ec1300dec25f9cd,Sony Xperia Z5 Premium Dual,Qualcomm Snapdragon 810,1.6,233,526
+5f019f0d5ec1300dec25f9ce,Xiaomi Mi Note Pro,Qualcomm Snapdragon 810,1.6,232,546
+5f019f0d5ec1300dec25f9cf,Samsung Galaxy A20,Samsung Exynos 7884,1.4,232,838
+5f019f0d5ec1300dec25f9d0,HTC One M9,Qualcomm Snapdragon 810,1.6,229,568
+5f019f0d5ec1300dec25f9d1,LG G5 SE,Qualcomm Snapdragon 652,1.4,227,684
+5f019f0d5ec1300dec25f9d2,Sony Xperia Z5,Qualcomm Snapdragon 810,1.6,226,525
+5f019f0d5ec1300dec25f9d3,Sony Xperia Z5 Premium,Qualcomm Snapdragon 810,1.6,225,528
+5f019f0d5ec1300dec25f9d4,Samsung Galaxy A9 Pro,Qualcomm Snapdragon 652,1.4,224,825
+5f019f0d5ec1300dec25f9d5,Motorola Moto X Force,Qualcomm Snapdragon 810,1.6,224,676
+5f019f0d5ec1300dec25f9d6,Sony Xperia Z5 Compact,Qualcomm Snapdragon 810,1.6,223,577
+5f019f0d5ec1300dec25f9d7,Motorola Moto X Style,Qualcomm Snapdragon 808,1.4,221,636
+5f019f0d5ec1300dec25f9d8,Samsung Galaxy Note 5,Samsung Exynos 7420,1.5,220,918
+5f019f0d5ec1300dec25f9d9,Huawei Nexus 6P,Qualcomm Snapdragon 810,1.6,217,526
+5f019f0d5ec1300dec25f9da,Sony Xperia Z5 Dual,Qualcomm Snapdragon 810,1.6,217,512
+5f019f0d5ec1300dec25f9db,Lenovo Yogabook YB1-X90F,Intel Atom x5-Z8550,2.4,216,737
+5f019f0d5ec1300dec25f9dc,Lenovo K8 Note,Mediatek Helio X23,1.4,214,922
+5f019f0d5ec1300dec25f9dd,LeEco Le Max,Qualcomm Snapdragon 810,1.6,214,565
+5f019f0d5ec1300dec25f9de,Meizu Pro 6,Mediatek MT6797T Helio X25,1.5,213,824
+5f019f0d5ec1300dec25f9df,Samsung Galaxy C9 Pro,Qualcomm Snapdragon 653,1.4,213,941
+5f019f0d5ec1300dec25f9e0,Sony Xperia Z3+,Qualcomm Snapdragon 810,1.6,209,427
+5f019f0d5ec1300dec25f9e1,NVIDIA SHIELD Tablet,NVIDIA Tegra K1,2.2,208,674
+5f019f0d5ec1300dec25f9e2,OnePlus 2,Qualcomm Snapdragon 810,1.6,203,598
+5f019f0d5ec1300dec25f9e3,Samsung Galaxy Tab S2 9.7,Samsung Exynos 5433,1.3,203,631
+5f019f0d5ec1300dec25f9e4,NVIDIA SHIELD Tablet K1,NVIDIA Tegra K1,2.2,201,696
+5f019f0d5ec1300dec25f9e5,UMi Z,Mediatek Helio X27,1.5,198,982
+5f019f0d5ec1300dec25f9e6,Huawei Mate SE,HiSilicon Kirin 659,1.7,193,884
+5f019f0d5ec1300dec25f9e7,Huawei Honor 7X,HiSilicon Kirin 659,1.7,191,873
+5f019f0d5ec1300dec25f9e8,Huawei Nova 2 Plus,HiSilicon Kirin 659,1.7,191,869
+5f019f0d5ec1300dec25f9e9,Huawei Mate 10 Lite,HiSilicon Kirin 659,1.7,190,844
+5f019f0d5ec1300dec25f9ea,Huawei P20 Lite,HiSilicon Kirin 659,1.7,190,876
+5f019f0d5ec1300dec25f9eb,Huawei P Smart,HiSilicon Kirin 659,1.7,190,859
+5f019f0d5ec1300dec25f9ec,Huawei Honor 9 Lite,HiSilicon Kirin 659,1.7,190,856
+5f019f0d5ec1300dec25f9ed,Huawei Nova 2,HiSilicon Kirin 659,1.7,190,862
+5f019f0d5ec1300dec25f9ee,Xiaomi Mi 4c,Qualcomm Snapdragon 808,1.4,189,455
+5f019f0d5ec1300dec25f9ef,Elephone S8,Mediatek MT6797T Helio X25,2,188,820
+5f019f0d5ec1300dec25f9f0,Vernee Mars Pro,Mediatek MT6757 Helio P25,1.7,186,966
+5f019f0d5ec1300dec25f9f1,Huawei P10 Lite,HiSilicon Kirin 658,1.7,185,825
+5f019f0d5ec1300dec25f9f2,Huawei Nova 2i,HiSilicon Kirin 659,1.7,184,763
+5f019f0d5ec1300dec25f9f3,Vivo V9,Qualcomm Snapdragon 626,2.2,184,1018
+5f019f0d5ec1300dec25f9f4,BQ Aquaris X Pro,Qualcomm Snapdragon 626,2.2,184,1037
+5f019f0d5ec1300dec25f9f5,10.or G,Qualcomm Snapdragon 626,2.2,183,1058
+5f019f0d5ec1300dec25f9f6,BQ Aquaris X,Qualcomm Snapdragon 626,2.2,182,1044
+5f019f0d5ec1300dec25f9f7,LG Nexus 5X,Qualcomm Snapdragon 808,1.4,180,445
+5f019f0d5ec1300dec25f9f8,HTC 10 evo,Qualcomm Snapdragon 810,1.6,180,566
+5f019f0d5ec1300dec25f9f9,Maze Alpha,Mediatek MT6757 Helio P25,1.7,179,707
+5f019f0d5ec1300dec25f9fa,Doogee Mix,Mediatek MT6757 Helio P25,1.7,178,790
+5f019f0d5ec1300dec25f9fb,Vernee Mix 2,Mediatek MT6757 Helio P25,1.7,177,700
+5f019f0d5ec1300dec25f9fc,Qihoo 360 N6 Lite,Qualcomm Snapdragon 630,2.2,177,966
+5f019f0d5ec1300dec25f9fd,Samsung Galaxy C7 Pro,Qualcomm Snapdragon 626,2.2,176,1019
+5f019f0d5ec1300dec25f9fe,Lenovo Tab3 8 Plus,Qualcomm Snapdragon 625,2,176,1039
+5f019f0d5ec1300dec25f9ff,Bluboo S1,Mediatek MT6757 Helio P25,1.7,176,697
+5f019f0d5ec1300dec25fa00,Xiaomi Redmi 4,Qualcomm Snapdragon 430,2,175,995
+5f019f0d5ec1300dec25fa01,Nextbit Robin,Qualcomm Snapdragon 808,1.4,175,423
+5f019f0d5ec1300dec25fa02,Motorola Moto X4,Qualcomm Snapdragon 630,2.2,175,973
+5f019f0d5ec1300dec25fa03,Nokia 6.1,Qualcomm Snapdragon 630,2.2,175,975
+5f019f0d5ec1300dec25fa04,Lenovo K8 Plus,Mediatek MT6757 Helio P25,1.7,174,759
+5f019f0d5ec1300dec25fa05,Motorola Moto G6 Plus,Qualcomm Snapdragon 630,2.2,174,963
+5f019f0d5ec1300dec25fa06,Huawei Nova,Qualcomm Snapdragon 625,2,173,958
+5f019f0d5ec1300dec25fa07,Asus Zenfone 4,Qualcomm Snapdragon 630,2.2,173,987
+5f019f0d5ec1300dec25fa08,Doogee S60,Mediatek Helio P20 MT6757,2.6,173,865
+5f019f0d5ec1300dec25fa09,Blackview BV8000 Pro,Mediatek MT6757 Helio P25,1.7,173,838
+5f019f0d5ec1300dec25fa0a,Oppo R9s,Qualcomm Snapdragon 625,2,172,996
+5f019f0d5ec1300dec25fa0b,Samsung Galaxy C5 Pro,Qualcomm Snapdragon 626,2.2,172,941
+5f019f0d5ec1300dec25fa0c,Sharp Aquos S2,Qualcomm Snapdragon 630,2.2,172,988
+5f019f0d5ec1300dec25fa0d,Xiaomi Redmi 4 Prime,Qualcomm Snapdragon 625,2,171,908
+5f019f0d5ec1300dec25fa0e,Huawei Honor 8 Lite,HiSilicon Kirin 655,1.7,171,836
+5f019f0d5ec1300dec25fa0f,Huawei Nova Lite,HiSilicon Kirin 655,1.7,171,837
+5f019f0d5ec1300dec25fa10,Huawei Nova Plus,Qualcomm Snapdragon 625,2,171,958
+5f019f0d5ec1300dec25fa11,Huawei P8 lite (2017),HiSilicon Kirin 655,1.7,170,829
+5f019f0d5ec1300dec25fa12,Xiaomi Redmi Note 4X,Qualcomm Snapdragon 625,2,169,924
+5f019f0d5ec1300dec25fa13,Lenovo P2,Qualcomm Snapdragon 625,2,169,992
+5f019f0d5ec1300dec25fa14,Xiaomi Mi Max 2,Qualcomm Snapdragon 625,2,169,972
+5f019f0d5ec1300dec25fa15,Vivo X9,Qualcomm Snapdragon 625,2,169,1013
+5f019f0d5ec1300dec25fa16,Vivo V5 Plus,Qualcomm Snapdragon 625,2,169,965
+5f019f0d5ec1300dec25fa17,Sony Xperia XA1 Ultra,Mediatek Helio P20 MT6757,1.6,169,844
+5f019f0d5ec1300dec25fa18,Asus Zenfone 3 Zoom,Qualcomm Snapdragon 625,2,169,1009
+5f019f0d5ec1300dec25fa19,Huawei P9 lite,HiSilicon Kirin 650,1.7,168,795
+5f019f0d5ec1300dec25fa1a,Asus Zenfone 3,Qualcomm Snapdragon 625,2,168,1001
+5f019f0d5ec1300dec25fa1b,Xiaomi Mi A1,Qualcomm Snapdragon 625,2,168,994
+5f019f0d5ec1300dec25fa1c,Meizu M6 Note,Qualcomm Snapdragon 625,2,168,979
+5f019f0d5ec1300dec25fa1d,Sony Xperia XA1,Mediatek Helio P20 MT6757,1.6,168,834
+5f019f0d5ec1300dec25fa1e,Huawei Honor 5c,HiSilicon Kirin 650,1.7,167,761
+5f019f0d5ec1300dec25fa1f,LG V10,Qualcomm Snapdragon 808,1.4,167,639
+5f019f0d5ec1300dec25fa20,Huawei Honor 6X,HiSilicon Kirin 655,1.7,167,784
+5f019f0d5ec1300dec25fa21,Samsung Galaxy C7,Qualcomm Snapdragon 625,2,166,998
+5f019f0d5ec1300dec25fa22,Huawei Mate 9 Lite,HiSilicon Kirin 655,1.7,166,770
+5f019f0d5ec1300dec25fa23,Xiaomi Mi 4s,Qualcomm Snapdragon 808,1.4,163,410
+5f019f0d5ec1300dec25fa24,Motorola Moto Z2 Play,Qualcomm Snapdragon 626,2.2,162,688
+5f019f0d5ec1300dec25fa25,Motorola Moto G5S Plus,Qualcomm Snapdragon 625,2,158,784
+5f019f0d5ec1300dec25fa26,Xiaomi Redmi S2,Qualcomm Snapdragon 625,2,157,763
+5f019f0d5ec1300dec25fa27,Sony Xperia XA Dual,Mediatek MT6755 Helio P10,0,155,629
+5f019f0d5ec1300dec25fa28,Sony Xperia XA,Mediatek MT6755 Helio P10,0,154,618
+5f019f0d5ec1300dec25fa29,HTC One (M8),Qualcomm MSM8974AB Snapdragon 801,2.3,152,540
+5f019f0d5ec1300dec25fa2a,Xiaomi Redmi Note 2,Mediatek MT6795,2.2,151,523
+5f019f0d5ec1300dec25fa2b,Gionee A1,Mediatek MT6755 Helio P10,0,151,567
+5f019f0d5ec1300dec25fa2c,Samsung Galaxy S5,Qualcomm MSM8974AC Snapdragon 801,2.5,150,409
+5f019f0d5ec1300dec25fa2d,Vivo V7,Qualcomm Snapdragon 450,1.8,149,876
+5f019f0d5ec1300dec25fa2e,LG G2,Qualcomm Snapdragon 800,2.3,149,470
+5f019f0d5ec1300dec25fa2f,Vivo V7+,Qualcomm Snapdragon 450,1.8,148,862
+5f019f0d5ec1300dec25fa30,Samsung Galaxy A20s,Qualcomm Snapdragon 450,1.8,148,898
+5f019f0d5ec1300dec25fa31,Motorola Nexus 6,Qualcomm APQ8084 Snapdragon 805,2.6,148,496
+5f019f0d5ec1300dec25fa32,Xiaomi Mi 5c,Xiaomi Surge S1,1.4,147,687
+5f019f0d5ec1300dec25fa33,UMi Plus,Mediatek MT6755 Helio P10,1.8,147,572
+5f019f0d5ec1300dec25fa34,Motorola Moto G5 Plus,Qualcomm Snapdragon 625,2,146,566
+5f019f0d5ec1300dec25fa35,Samsung Galaxy Note 3,Qualcomm Snapdragon 800,2.3,146,498
+5f019f0d5ec1300dec25fa36,Xiaomi Redmi 5,Qualcomm Snapdragon 450,2,145,816
+5f019f0d5ec1300dec25fa37,Samsung Galaxy A7 (2017),Samsung Exynos 7880,1.9,144,899
+5f019f0d5ec1300dec25fa38,Motorola Moto Z Play,Qualcomm Snapdragon 625,2,143,539
+5f019f0d5ec1300dec25fa39,Samsung Galaxy A5 (2017),Samsung Exynos 7880,1.9,142,922
+5f019f0d5ec1300dec25fa3a,Oppo F3,Mediatek MT6750,1.5,141,655
+5f019f0d5ec1300dec25fa3b,OnePlus One,Qualcomm MSM8974AC Snapdragon 801,2.5,138,440
+5f019f0d5ec1300dec25fa3c,ZTE Trek 2 ,Qualcomm Snapdragon 617,1.5,134,651
+5f019f0d5ec1300dec25fa3d,LG G3,Qualcomm MSM8975AC Snapdragon 801,2.5,132,407
+5f019f0d5ec1300dec25fa3e,LG Nexus 5,Qualcomm Snapdragon 800,2.3,130,391
+5f019f0d5ec1300dec25fa3f,HTC One A9,Qualcomm Snapdragon 617,0,129,661
+5f019f0d5ec1300dec25fa40,ZTE Axon 7 Mini,Qualcomm Snapdragon 617,0,129,505
+5f019f0d5ec1300dec25fa41,Asus Zenfone 3 Max,Mediatek MT6737,1.4,126,432
+5f019f0d5ec1300dec25fa42,Nokia 5,Qualcomm Snapdragon 430,1.4,124,591
+5f019f0d5ec1300dec25fa43,Nokia 6,Qualcomm Snapdragon 430,1.4,124,598
+5f019f0d5ec1300dec25fa44,Xiaomi Redmi 4X,Qualcomm Snapdragon 435,0,124,564
+5f019f0d5ec1300dec25fa45,Xiaomi Redmi 5A,Qualcomm Snapdragon 425,1.4,124,403
+5f019f0d5ec1300dec25fa46,ZTE Blade Z Max,Qualcomm Snapdragon 435,1.4,124,581
+5f019f0d5ec1300dec25fa47,Wileyfox Swift 2 Plus,Qualcomm Snapdragon 430,1.4,124,599
+5f019f0d5ec1300dec25fa48,Motorola Moto G6,Qualcomm Snapdragon 450,1.8,124,447
+5f019f0d5ec1300dec25fa49,Xiaomi Redmi Note 5A,Qualcomm Snapdragon 435,1.4,123,453
+5f019f0d5ec1300dec25fa4a,Asus Zenfone 4 Max,Qualcomm Snapdragon 430,1.4,123,483
+5f019f0d5ec1300dec25fa4b,Asus Zenfone Max Plus,Mediatek MT6750,1.5,123,620
+5f019f0d5ec1300dec25fa4c,ZTE Max XL,Qualcomm Snapdragon 435,1.4,123,604
+5f019f0d5ec1300dec25fa4d,Sony Xperia L1,Mediatek MT6737T,1.4,123,408
+5f019f0d5ec1300dec25fa4e,ZTE Blade X Max,Qualcomm Snapdragon 435,1.4,123,544
+5f019f0d5ec1300dec25fa4f,Xiaomi Redmi 4A,Qualcomm Snapdragon 425,1.4,122,392
+5f019f0d5ec1300dec25fa50,Xiaomi Redmi 3s,Qualcomm Snapdragon 430,1.4,121,594
+5f019f0d5ec1300dec25fa51,Lenovo K6 Note,Qualcomm Snapdragon 430,1.4,121,604
+5f019f0d5ec1300dec25fa52,Meizu M6,Mediatek MT6750,1,121,551
+5f019f0d5ec1300dec25fa53,Samsung Galaxy J7 Max,Mediatek Helio P20 MT6757,1.7,120,422
+5f019f0d5ec1300dec25fa54,Vivo V5s,Mediatek MT6750,1.5,119,494
+5f019f0d5ec1300dec25fa55,Asus Zenpad 8.0,MediaTek MT8163 V/B,1.3,119,419
+5f019f0d5ec1300dec25fa56,Samsung Galaxy Tab A 10.1,Samsung Exynos 7870 Octa,1.6,119,448
+5f019f0d5ec1300dec25fa57,Samsung Galaxy J7 (2017),Samsung Exynos 7870 Octa,1.6,119,451
+5f019f0d5ec1300dec25fa58,Samsung Galaxy Feel,Samsung Exynos 7870 Octa,1.6,119,451
+5f019f0d5ec1300dec25fa59,Lenovo K6 Power,Qualcomm Snapdragon 430,1.4,118,547
+5f019f0d5ec1300dec25fa5a,Lenovo Vibe K5 Plus,Qualcomm MSM8939v2 Snapdragon 616,1.5,117,471
+5f019f0d5ec1300dec25fa5b,Samsung Galaxy A3 (2017),Samsung Exynos 7870 Octa,1.6,117,460
+5f019f0d5ec1300dec25fa5c,Samsung Galaxy J7,Qualcomm Snapdragon 617,1.6,117,437
+5f019f0d5ec1300dec25fa5d,Samsung Galaxy J5 (2017),Samsung Exynos 7870 Octa,1.6,117,444
+5f019f0d5ec1300dec25fa5e,Samsung Galaxy J7 Pro,Samsung Exynos 7870 Octa,1.6,116,439
+5f019f0d5ec1300dec25fa5f,Vernee Thor,Mediatek MT6753,1.3,115,610
+5f019f0d5ec1300dec25fa60,Motorola Moto X Play,Qualcomm Snapdragon 615,1.7,114,354
+5f019f0d5ec1300dec25fa61,Meizu M2,Mediatek MT6735,1.3,113,390
+5f019f0d5ec1300dec25fa62,Motorola Moto G4,Qualcomm Snapdragon 617,1.5,113,385
+5f019f0d5ec1300dec25fa63,Samsung Galaxy J7 Prime,Samsung Exynos 7870 Octa,1.6,113,417
+5f019f0d5ec1300dec25fa64,Oukitel K6000 Pro,Mediatek MT6753,1.3,112,575
+5f019f0d5ec1300dec25fa65,Samsung Galaxy A7 (2016),Samsung Exynos 7580,1.6,112,418
+5f019f0d5ec1300dec25fa66,LG K10 (2017),Mediatek MT6750,1,108,363
+5f019f0d5ec1300dec25fa67,Samsung Galaxy J7 Nxt,Samsung Exynos 7870 Octa,1.6,108,414
+5f019f0d5ec1300dec25fa68,Motorola Moto G5S,Qualcomm Snapdragon 430,1.4,107,396
+5f019f0d5ec1300dec25fa69,Huawei P9 lite mini,Qualcomm Snapdragon 425,1.4,106,363
+5f019f0d5ec1300dec25fa6a,Samsung Galaxy J3 (2017),Samsung Exynos 7570,1.4,105,357
+5f019f0d5ec1300dec25fa6b,Samsung Galaxy A5 (2016),Samsung Exynos 7580,1.6,105,390
+5f019f0d5ec1300dec25fa6c,Huawei Honor 6A,Qualcomm Snapdragon 430,1.4,105,385
+5f019f0d5ec1300dec25fa6d,Samsung Galaxy S4,Qualcomm Snapdragon 600,1.9,105,360
+5f019f0d5ec1300dec25fa6e,Huawei P8 lite,HiSilicon Kirin 620,1.2,104,478
+5f019f0d5ec1300dec25fa6f,Motorola Moto G5,Qualcomm Snapdragon 430,1.4,104,370
+5f019f0d5ec1300dec25fa70,Motorola Moto G6 Play,Qualcomm Snapdragon 430,1.4,104,372
+5f019f0d5ec1300dec25fa71,Xiaomi Redmi 3,Qualcomm MSM8939v2 Snapdragon 616,1.5,103,530
+5f019f0d5ec1300dec25fa72,Samsung Galaxy A3 (2016),Samsung Exynos 7578,1.5,103,358
+5f019f0d5ec1300dec25fa73,Samsung Galaxy C5,Qualcomm Snapdragon 617,1.5,103,340
+5f019f0d5ec1300dec25fa74,Nokia 3,Mediatek MT6737,1.2,101,339
+5f019f0d5ec1300dec25fa75,Samsung Galaxy J5 Prime,Samsung Exynos 7570,1.4,100,336
+5f019f0d5ec1300dec25fa76,LG K20 plus,Qualcomm Snapdragon 425,1.4,96,324
+5f019f0d5ec1300dec25fa77,Wileyfox Swift,Qualcomm MSM8916 Snapdragon 410,1.2,95,308
+5f019f0d5ec1300dec25fa78,Asus Zenfone 2 Laser,Qualcomm Snapdragon 650,1.2,94,300
+5f019f0d5ec1300dec25fa79,Asus Nexus 7 (2013),Qualcomm Snapdragon S4 Pro APQ8064,1.5,92,352
+5f019f0d5ec1300dec25fa7a,Motorola Moto G4 Play,Qualcomm MSM8916 Snapdragon 410,1.2,84,281
+5f019f0d5ec1300dec25fa7b,Motorola Moto E4,Mediatek MT6737,1.2,82,291
+5f019f0d5ec1300dec25fa7c,Samsung Galaxy Tab A 8.0,Qualcomm MSM8916 Snapdragon 410,1.2,82,244
+5f019f0d5ec1300dec25fa7d,Samsung Galaxy Tab A 9.7,Qualcomm MSM8916 Snapdragon 410,1.2,82,267
+5f019f0d5ec1300dec25fa7e,Motorola Moto E4 Plus,Mediatek MT6737,1.2,81,284
+5f019f0d5ec1300dec25fa7f,Meizu M5 Note,Mediatek MT6755 Helio P10,1,80,667
+5f019f0d5ec1300dec25fa80,Samsung Galaxy J5,Qualcomm MSM8916 Snapdragon 410,1.2,80,236
+5f019f0d5ec1300dec25fa81,Samsung Galaxy J5 (2016),Qualcomm MSM8916 Snapdragon 410,1.2,79,208
+5f019f0d5ec1300dec25fa82,LG Q6,Qualcomm Snapdragon 435,1.4,78,285
