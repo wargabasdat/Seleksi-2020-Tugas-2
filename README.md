@@ -27,10 +27,10 @@ __pandas__, __bs4__, __re__, __csv__, __requests__, __json__, dan __multiprocess
 
 ## Bonus
 Dalam mengimplementasikan tugas bonus, digunakan platform basis data online bernama [Caspio](https://www.caspio.com/) . Untuk melakukan operasi **CRUD** terhadap basis data online, pengguna dapat mengakses link berikut untuk melakukan: \
-**Player Registration**: https://c6afw943.caspio.com/dp/83ab8000fd8fd60c84f94eee866c \
-**Player Removal**: https://c6afw943.caspio.com/dp/83ab8000e5929aab842c4734abe9 \
-**Player Directory Update**: https://c6afw943.caspio.com/dp/83ab80002d72d1d623f343dc8ff2 \
 **Player Directory**: https://c6afw943.caspio.com/dp/83ab80009845528ad6c84c7497e6 \
+**Player Directory Update**: https://c6afw943.caspio.com/dp/83ab80002d72d1d623f343dc8ff2 \
+**Player Registration**: https://c6afw943.caspio.com/dp/83ab8000fd8fd60c84f94eee866c \
+**Player Removal**: https://c6afw943.caspio.com/dp/83ab8000e5929aab842c4734abe9 
 
 ## Author 
 **Fakhrurrida Clarendia Widodo** - *13518091* - [fakhrurrida](https://github.com/fakhrurrida)
