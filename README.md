@@ -20,30 +20,50 @@ Pada tugas kali ini author memilih Mongodb sebagai DBMS, karena:
 
 ###  How to get the data using API
 download and install node.js & npm
+
 install required package
+
 `npm i`
+
 install express for API
+
 `npm i express`
+
 install mongodb
+
 `npm i mongodb`
+
 run code
+
 `npm start`
+
 to get all data
-`localhost:4000/items'
+
+`localhost:4000/items`
+
 to get data with specific category
+
 `localhost:4000/items/:category`
+
 __category dapat diisi dengan :__
+
 `BLAZER | JAKET , GAUN | JUMPSUIT , KEMEJA | ATASAN , PAKAIAN RAJUTAN
 CELANA PANJANG , JEANS , ROK , KAUS OBLONG , CELANA PENDEK , SEPATU , 
 TAS , BAJU RENANG , AKSESORI , SETELAN , JOIN LIFE COLLECTION`
 
 
 ###  Screenshot
+import to DBMS
 ![import to DBMS](/screenshots/import.png)
+export from DBMS
 ![export from DBMS](/screenshots/export.png)
+show data stored in DBMS
 ![show data stored in DBMS](/screenshots/show.png)
+cloud database
 ![cloud database](/screenshots/atlas.png)
+API to get all data
 ![API to get all data](/screenshots/allitems.png)
+API to get data per category
 ![API to get data per category](/screenshots/percat.png)
 
 ###  Reference
