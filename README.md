@@ -50,7 +50,7 @@
 </h3>
 
 ## Description
-Pada kesempatan kali ini digunakan MongoDB. MongoDB merupakan suatu DBMS NoSQL. Paradigma yang berbeda dari SQL yang sudah dipelajari dan biasa digunakan menjadikan MongoDB menarik untuk digunakan kali ini karena dapat memperluas pengetahuan terkait macam-macam DBMS. Untuk melakukan akses saya menggunakan MongoDB Compass yang merupakan GUI untuk MongoDB sehingga memudahkan bagi pemula demi terhindar dari kesalahan fatal dan fokus untuk eksplorasi fitur ketimbang menghadapi masalah teknis.
+Pada kesempatan kali ini digunakan MongoDB. MongoDB merupakan suatu DBMS NoSQL. Paradigma yang berbeda dari SQL yang sudah dipelajari dan biasa digunakan menjadikan MongoDB menarik untuk digunakan kali ini karena dapat memperluas pengetahuan terkait macam-macam DBMS. Selain itu DBMS ini juga lebih praktis untuk melakukan import dari file berformat json ketimbang RDBMS seperti PostgreSQL dan MySQL. Untuk melakukan akses saya menggunakan MongoDB Compass yang merupakan GUI untuk MongoDB sehingga memudahkan bagi pemula demi terhindar dari kesalahan fatal dan fokus untuk eksplorasi fitur ketimbang menghadapi masalah teknis.
 ## Screenshot
 ![1](https://github.com/hudanwidzamil/Seleksi-2020-Tugas-2/blob/master/screenshots/1.png)
 ![2](https://github.com/hudanwidzamil/Seleksi-2020-Tugas-2/blob/master/screenshots/2.png)
