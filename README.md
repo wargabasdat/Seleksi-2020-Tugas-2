@@ -54,9 +54,9 @@ Pada kesempatan kali ini digunakan MongoDB. MongoDB merupakan suatu DBMS NoSQL. 
 ## Screenshot
 ![1](https://github.com/hudanwidzamil/Seleksi-2020-Tugas-2/blob/master/screenshots/1.png)
 ![2](https://github.com/hudanwidzamil/Seleksi-2020-Tugas-2/blob/master/screenshots/2.png)
-![3](https://github.com/hudanwidzamil/Seleksi-2020-Tugas-3/blob/master/screenshots/3.png)
-![4](https://github.com/hudanwidzamil/Seleksi-2020-Tugas-4/blob/master/screenshots/4.png)
-![5](https://github.com/hudanwidzamil/Seleksi-2020-Tugas-4/blob/master/screenshots/5.png)
+![3](https://github.com/hudanwidzamil/Seleksi-2020-Tugas-2/blob/master/screenshots/3.png)
+![4](https://github.com/hudanwidzamil/Seleksi-2020-Tugas-2/blob/master/screenshots/4.png)
+![5](https://github.com/hudanwidzamil/Seleksi-2020-Tugas-2/blob/master/screenshots/5.png)
 ## Reference
 _Tools_ yang digunakan:
 1. [MongoDB](https://mongodb.com)
