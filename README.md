@@ -107,7 +107,7 @@ show collections
 use tugas2
 ```
 
-<img src="/screenshots/mongoshell2.png" alt="Capture1" width="600"/>
+<img src="/screenshots/mongoshell2.png" alt="Capture1" width="400"/>
 
 5. Masukkan command berikut
 
@@ -132,7 +132,7 @@ untuk lebih jelasnya dapat dilihat pada demo video
 Link : https://www.youtube.com/watch?v=dL2ZhtTaLK0
 
 4. Berikut adalah contoh salah satu API yaitu untuk mendapatkan semua data internet dari Database
-<img src="/screenshots/postman.png" alt="Capture1" width="200"/>
+<img src="/screenshots/postman.png" alt="Capture1" width="800"/>
 
 &nbsp;
 # Author
