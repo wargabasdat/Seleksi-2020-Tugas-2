@@ -1,20 +1,15 @@
 <h1 align="center">
-  <br>
   Seleksi 2 Warga Basdat 2020
-  <br>
   <br>
 </h1>
 
 <h2 align="center">
-  <br>
   Data Storing
-  <br>
   <br>
 </h2>
 
 ## Deskripsi DBMS yang Dipilih
-Dalam tugas ini, DBMS yang dipakai adalah PostgreSQL. Adapun alasan mengapa saya menggunakan DBMS ini adalah karena saya p̶a̶n̶i̶k̶ ̶w̶a̶k̶t̶u̶ ̶n̶g̶i̶s̶i̶ ̶f̶o̶r̶m̶  telah cukup familiar dengan SQL \
-Sementara itu, dalam mengerjakan soal bonus, basis data online yang saya pilih adalah [Caspio](https://www.caspio.com/) karena selain gratis, situs ini juga menawarkan kemudahan dalam membuat API sederhana terhadap basis data.
+Dalam tugas ini, DBMS yang dipakai adalah PostgreSQL. Adapun alasan mengapa saya menggunakan DBMS ini adalah karena saya p̶a̶n̶i̶k̶ ̶w̶a̶k̶t̶u̶ ̶n̶g̶i̶s̶i̶ ̶f̶o̶r̶m̶  telah cukup familiar dengan SQL. Sementara itu, dalam mengerjakan soal bonus, basis data online yang saya pilih adalah [Caspio](https://www.caspio.com/) karena selain gratis, situs ini juga menawarkan kemudahan dalam membuat API sederhana terhadap basis data.
 
 ## Screenshot Program
 ### Tangkapan Layar Saat Membuat Tabel
@@ -31,8 +26,7 @@ Sementara itu, dalam mengerjakan soal bonus, basis data online yang saya pilih a
 __pandas__, __bs4__, __re__, __csv__, __requests__, __json__, dan __multiprocessing__.
 
 ## Bonus
-Dalam mengimplementasikan tugas bonus, digunakan platform basis data online bernama [Caspio](https://www.caspio.com/) \
-Untuk melakukan operasi **CRUD** terhadap basis data online, pengguna dapat mengakses link berikut untuk melakukan: \
+Dalam mengimplementasikan tugas bonus, digunakan platform basis data online bernama [Caspio](https://www.caspio.com/) . Untuk melakukan operasi **CRUD** terhadap basis data online, pengguna dapat mengakses link berikut untuk melakukan: \
 **Player Registration**: https://c6afw943.caspio.com/dp/83ab8000fd8fd60c84f94eee866c \
 **Player Removal**: https://c6afw943.caspio.com/dp/83ab8000e5929aab842c4734abe9 \
 **Player Directory Update**: https://c6afw943.caspio.com/dp/83ab80002d72d1d623f343dc8ff2 \
@@ -40,10 +34,3 @@ Untuk melakukan operasi **CRUD** terhadap basis data online, pengguna dapat meng
 
 ## Author 
 **Fakhrurrida Clarendia Widodo** - *13518091* - [fakhrurrida](https://github.com/fakhrurrida)
-
-<h3 align="center">
-  <br>
-  Lab Basdat 2020
-  <br>
-  <br>
-</h3>
