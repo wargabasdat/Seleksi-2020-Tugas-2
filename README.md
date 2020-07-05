@@ -7,7 +7,7 @@
 
 <h2 align="center">
   <br>
-  Tugas 2 : Data Storing dan API
+  Tugas 2 : Data Storing dan API Sederhana
   <br>
   Muhammad Fauzan Al-Ghifari
   <br>
@@ -132,7 +132,7 @@ untuk lebih jelasnya dapat dilihat pada demo video
 Link : https://www.youtube.com/watch?v=dL2ZhtTaLK0
 
 4. Berikut adalah contoh salah satu API yaitu untuk mendapatkan semua data internet dari Database
-<img src="/screenshots/postman.png" alt="Capture1" width="800"/>
+<img src="/screenshots/postman2.png" alt="Capture1" width="800"/>
 
 &nbsp;
 # Author
