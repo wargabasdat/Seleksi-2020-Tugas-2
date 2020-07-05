@@ -12,39 +12,47 @@
   <br>
 </h2>
 
+###  Description of the DBMS
+Pada tugas kali ini author memilih Mongodb sebagai DBMS, karena:
+- Tipe data yang disimpan fleksibel
+- High performance read and write
+- Menggunakan JSON query languange (sama dengan hasil data scrape yang didapatkan)
 
-## Specifications
-
-### Data Storing
-
-1. Lakukan _storing_ data yang didapatkan dari hasil _scrapping_ (Tugas 1) ke DBMS 
-
-2. Tools yang digunakan __dibebaskan__
-
-3. Dalam pengerjaan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: https://github.com/wargabasdat/Seleksi-2020-Tugas-2. Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_2_[NIM]```
-
-4. Pada _repository_ tersebut, calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Repository_ Tugas 2 terdiri dari folder `data`, `screenshots` dan `export`
-    - _Folder_ `data` berisi data hasil dari _scrapping_
-    - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
-    - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
-
-5. Deadline pengumpulan tugas ini adalah __6 Juli 2020 Pukul 23.59__
-
-6. Berikan README yang berisikan konten minimal berupa :
-    - Description of the DBMS (Why you choose it)
-    - Screenshot (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-    - Reference (Library used, etc)
-    - Author
-
-7. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    1. Simpan ke database online
-    2. Buatlah API sederhana untuk mengakses database online tersebut
-    3. ...
+###  How to get the data using API
+download and install node.js & npm
+install required package
+`npm i`
+install express for API
+`npm i express`
+install mongodb
+`npm i mongodb`
+run code
+`npm start`
+to get all data
+`localhost:4000/items'
+to get data with specific category
+`localhost:4000/items/:category`
+__category dapat diisi dengan :__
+`BLAZER | JAKET , GAUN | JUMPSUIT , KEMEJA | ATASAN , PAKAIAN RAJUTAN
+CELANA PANJANG , JEANS , ROK , KAUS OBLONG , CELANA PENDEK , SEPATU , 
+TAS , BAJU RENANG , AKSESORI , SETELAN , JOIN LIFE COLLECTION`
 
 
-<h3 align="center">
-  <br>
-  Lab Basdat 2020
-  <br>
-  <br>
-</h3>
+###  Screenshot
+![import to DBMS](/screenshots/import.png)
+![export from DBMS](/screenshots/export.png)
+![show data stored in DBMS](/screenshots/show.png)
+![cloud database](/screenshots/atlas.png)
+![API to get all data](/screenshots/allitems.png)
+![API to get data per category](/screenshots/percat.png)
+
+###  Reference
+- mongodb untuk menyimpan data hasil scrape
+- Atlas untuk cloud database mongodb
+- Node.js dan express untuk membuat API
+
+
+###  Author
+Chandrika Azharyanti
+13518001
+
