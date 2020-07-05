@@ -30,7 +30,7 @@ Link : https://www.youtube.com/watch?v=dL2ZhtTaLK0
   
 # Deskripsi DBMS
 
-MongoDB adalah salah satu jenis database yang menggunakan konsep NoSQL berbasis dokumen. Saya memilih menggunakan mongoDB karena dengan konsep NoSQL, saya bisa memiliki fleksibilitas yang lebih tinggi untuk tiap dokumen di dalam collections saya karena tidak semua data dokumen memiliki property serupa. Selain itu mongoDB juga menyediakan fitur penyimpanan database secara online yang cukup mudah untuk dibuat dan diakses oleh pengguna dengan adanya mongoDB Compass dan mongoDB Atlas
+MongoDB adalah salah satu jenis database yang menggunakan konsep NoSQL berbasis dokumen. Saya memilih menggunakan mongoDB karena dengan konsep NoSQL, saya bisa memiliki fleksibilitas yang lebih tinggi untuk tiap dokumen di dalam collections karena tidak semua data dokumen memiliki property serupa. mongoDB juga menyediakan fitur penyimpanan database secara online yang cukup mudah untuk dibuat dan diakses oleh pengguna dengan adanya mongoDB Compass dan mongoDB Atlas. Selain itu mongoDB juga dapat dihubungkan ke javascript menggunakan mongoose, sehingga lebih mudah dalam manajemen API nya dengan express
 
 # Reference Libraries and Prerequisite Tools
 1. Node Js
@@ -48,15 +48,15 @@ MongoDB adalah salah satu jenis database yang menggunakan konsep NoSQL berbasis 
 
 1. Download atau clone repository ini, pastikan semua software yang dibutuhkan sudah terinstall
 
-2. Buka folder folder api
+2. Buka folder api
 
-3. Jalankan terminal di folder api
+3. Jalankan terminal di dalam folder api
 
 4. Jalankan command berikut pada terminal untuk menginstall library yang dibutuhkan
 ```
 npm install
 ```
-5. Anda bisa mengimport database dari hasil scraping tugas satu dengan command berikut, tetapi hal ini dapat di skip karena saya sudah terlebih dahulu mengimportnya ke database online tersebut
+5. Anda bisa mengimport database dari hasil scraping tugas satu dengan command berikut, tetapi hal ini dapat di lewati karena saya sudah terlebih dahulu mengimportnya ke database online tersebut
 ```
 npm run import
 ```
@@ -67,7 +67,7 @@ npm run start
 7. Tunggu hingga muncul tulisan "DB connection success" 
 <img src="/screenshots/success.png" alt="Capture1" width="200"/>
 
-8. Semua IP sudah saya whitelist sehingga seharusnya bisa menyambung dengan segala jaringan internet, tetapi saya pernah mencoba tethering dari HP dengan jaringan Tel****** dan gagal dengan error connection timeout. Jika hal ini terjadi coba dengan jaringan internet lainnya seharusnya bisa, jika masih tidak bisa tolong hubungi saya
+8. Semua IP sudah saya whitelist sehingga seharusnya database dapat diakses dengan segala jaringan internet, tetapi saya pernah mencoba tethering dari HP dengan jaringan Tel****** dan gagal dengan error connection timeout. Jika hal ini terjadi coba jalankan command dengan jaringan internet lainn seharusnya masalah dapat teratasi, jika masih tidak bisa tolong hubungi saya
 
 ## Memastikan data sudah terimport ke database
 
@@ -75,7 +75,7 @@ Pastikan connection ke online database sudah sukses dijalankan
 
 ### Menggunakan mongoDB Compass
 
-1. Buka mongoDB compass
+1. Buka mongoDB compass dan klik new connection
 2. Masukkan connection string berikut
 ```
 mongodb+srv://seleksibasdat:pesertaseleksi@cluster0-lmcyv.mongodb.net/test?authSource=admin&replicaSet=Cluster0-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true
@@ -83,8 +83,8 @@ mongodb+srv://seleksibasdat:pesertaseleksi@cluster0-lmcyv.mongodb.net/test?authS
 <img src="/screenshots/compass1.png" alt="Capture1" width="600"/>
 
 3. Tunggu sampai sukses tersambung
-4. pilih database dengan judul "tugas2" dengan collection "internets"
-5. dapat dilihat bahwa database sudah tersimpan di server online mongoDB
+4. Pilih database dengan name "tugas2" dengan collection "internets"
+5. Dapat dilihat bahwa data sudah tersimpan di server online database mongoDB
 
 <img src="/screenshots/compass2.png" alt="Capture1" width="600"/>
 
@@ -109,7 +109,7 @@ use tugas2
 
 <img src="/screenshots/mongoshell2.png" alt="Capture1" width="400"/>
 
-5. Masukkan command berikut
+5. Masukkan command berikut untuk menampilkan data
 
 ```
 db.internets.find().pretty()
@@ -123,15 +123,15 @@ db.internets.find().pretty()
 pastikan dua langkah sebelumnya sudah sukses dijalankan
 
 1. Buka Postman
-2. Export postman collections dari path berikut ke dalam postman di komputer anda
+2. Export postman collections dari folder berikut ke dalam postman di komputer anda
 ```
 /api/postman and string/Tugas2.postman_collection.json
 ```
 3. Gunakan API yang sudah tersedia pada postman collection
-untuk lebih jelasnya dapat dilihat pada demo video
+untuk lebih jelas tentang cara mengkonsumsi API-nya dapat dilihat pada demo video
 Link : https://www.youtube.com/watch?v=dL2ZhtTaLK0
 
-4. Berikut adalah contoh salah satu API yaitu untuk mendapatkan semua data internet dari Database
+4. Berikut adalah salah satu contoh API, yang berfungsi untuk mendapatkan semua data internet dari Database
 <img src="/screenshots/postman2.png" alt="Capture1" width="800"/>
 
 &nbsp;
