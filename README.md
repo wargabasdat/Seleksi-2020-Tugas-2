@@ -54,17 +54,29 @@ TAS , BAJU RENANG , AKSESORI , SETELAN , JOIN LIFE COLLECTION`
 
 ###  Screenshot
 import to DBMS
+
 ![import to DBMS](/screenshots/import.png)
+
 export from DBMS
+
 ![export from DBMS](/screenshots/export.png)
+
 show data stored in DBMS
+
 ![show data stored in DBMS](/screenshots/show.png)
+
 cloud database
+
 ![cloud database](/screenshots/atlas.png)
+
 API to get all data
+
 ![API to get all data](/screenshots/allitems.png)
+
 API to get data per category
+
 ![API to get data per category](/screenshots/percat.png)
+
 
 ###  Reference
 - mongodb untuk menyimpan data hasil scrape
