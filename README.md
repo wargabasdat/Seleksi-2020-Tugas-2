@@ -19,6 +19,8 @@ Pada tugas kali ini author memilih Mongodb sebagai DBMS, karena:
 - Menggunakan JSON query languange (sama dengan hasil data scrape yang didapatkan)
 
 ###  How to get the data using API
+Akses pada database bersifat _read only_, sehingga API hanya dapat digunakan untuk melihat data, berikut caranya:
+
 download and install node.js & npm
 
 install required package
