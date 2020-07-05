@@ -25,7 +25,7 @@ Program dibuat untuk melakukan data storing ke database online DBMS MongoDB dan 
 Link : https://www.youtube.com/watch?v=dL2ZhtTaLK0
 
 <a href = "https://www.youtube.com/watch?v=dL2ZhtTaLK0">
-<img src="/screenshots/thumbnail2.jpg" href="https://www.youtube.com/watch?v=dL2ZhtTaLK0" target="blank" alt="Video" width="350"/>
+<img src="/screenshots/thumbnail2.jpg" href="https://www.youtube.com/watch?v=dL2ZhtTaLK0" target="blank" alt="Video" width="400"/>
 <a/>
   
 # Deskripsi DBMS
@@ -118,7 +118,8 @@ db.internets.find().pretty()
 6. Maka isi data akan ditampilkan pada shell
 <img src="/screenshots/mongoshell3.png" alt="Capture1" width="600"/>
 
-## Menggunakan API sederhana
+&nbsp;
+# Menggunakan API sederhana
 
 pastikan dua langkah sebelumnya sudah sukses dijalankan
 
