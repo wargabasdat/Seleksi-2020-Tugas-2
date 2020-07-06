@@ -13,38 +13,53 @@
 </h2>
 
 
-## Specifications
+## Deskripsi DBMS
+MongoDB adalah basis data nonrelasional. Data di MongoDB tidak disimpan dalam bentuk tabel, melainkan dalam bentuk dokumen JSON. Karena MongoDB tidak mengharuskan penggunanya untuk mendefinisikan sebuah skema, basis data MongoDB bersifat fleksibel dan mudah diubah.
 
-### Data Storing
+## Kenapa MongoDB?
+Karena fleksibel. *Record* yang satu dengan *record* yang lain tidak diharuskan memiliki struktur yang sama. Pada data yang telah dikumpulkan, ada beberapa *field* yang memiliki struktur berbeda per *record*, salah satunya adalah `time`.
 
-1. Lakukan _storing_ data yang didapatkan dari hasil _scrapping_ (Tugas 1) ke DBMS 
+Berikut ini adalah struktur dari properti `time`:
+```
+time: {
+  prep,
+  cook,
+  additional,
+  total
+}
+```
+Tidak semua *record* memiliki keempat properti tersebut. Ada sebuah *record* memiliki waktu `prep` dan `cook`, ada *record* lain yang hanya memiliki waktu `cook`. Ada juga resep yang memiliki `time` tidak terdefinisi ( `-` ).
 
-2. Tools yang digunakan __dibebaskan__
+Struktur `time` cukup sulit diimplementasikan pada basis data relasional yang mengharuskan setiap *record* memiliki jumlah *field* yang sama. Oleh karena itu, dipilih MongoDB sebagai DBMS yang mendukung fleksibilitas *field* dari tiap *record*.
 
-3. Dalam pengerjaan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: https://github.com/wargabasdat/Seleksi-2020-Tugas-2. Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_2_[NIM]```
+Terdapat pula beberapa alasan lain seperti:
 
-4. Pada _repository_ tersebut, calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Repository_ Tugas 2 terdiri dari folder `data`, `screenshots` dan `export`
-    - _Folder_ `data` berisi data hasil dari _scrapping_
-    - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
-    - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
+- Tidak perlu operasi *join* karena ada *embedded document* yang memungkinkan untuk menyimpan semua informasi dalam satu dokumen.
 
-5. Deadline pengumpulan tugas ini adalah __6 Juli 2020 Pukul 23.59__
+- Karena tidak perlu *join*, *syntax* menjadi relatif lebih singkat dan mudah untuk menjalankan *complicated query*. 
 
-6. Berikan README yang berisikan konten minimal berupa :
-    - Description of the DBMS (Why you choose it)
-    - Screenshot (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-    - Reference (Library used, etc)
-    - Author
+- Hampir semua relasi antar entitas merupakan relasi *one-to-one* sehingga metode *embedded document* sangat efektif. Kalaupun ada relasi *one-to-many*, entitas di sisi *many* tidak memiliki banyak informasi tambahan sehingga bisa juga di-*embed*.
 
-7. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    1. Simpan ke database online
-    2. Buatlah API sederhana untuk mengakses database online tersebut
-    3. ...
+- Merupakan salah satu basis data NoSQL yang paling populer, sehingga terdapat banyak *resource* untuk belajar.
 
+## Tangkapan Layar
+![Database Preview](https://github.com/anindyy/Seleksi-2020-Tugas-2/blob/master/screenshots/ss-01.jpg?raw=true)
+
+![Database with Query Preview](https://github.com/anindyy/Seleksi-2020-Tugas-2/blob/master/screenshots/ss-02.jpg?raw=true)
+
+## Referensi
+- [MongoDB](mongodb.com)
+
+## Catatan Tambahan
+Karena data yang kemarin di-*scrape* ternyata perlu diproses lebih lanjut, disertakan *script* tambahan pada folder `/src` sebagai proses lanjutan. *Script* untuk *scraping* pada *repository* untuk tugas 1 sudah diperbaiki.
+
+Proses lanjutan yang dilakukan adalah mengonversi waktu masak yang bersatuan campuran (misal: `1 hr 30 mins`) menjadi satuan menit dan di-*parse* menjadi integer (misal: `90`). 
+
+Saat mengumpulkan data kemarin, saya hanya memikirkan kemudahan pembacaan data. Lebih mudah membaca `7 jam 15 menit` dari pada `435 menit`. Ketika akan memasukkan data ke DBMS, saya baru menyadari bahwa saya perlu melakukan *query* perbandingan terhadap waktu masak, sehingga waktu masak seharusnya disimpan dalam bentuk integer.
 
 <h3 align="center">
   <br>
-  Lab Basdat 2020
+  Anindya Prameswari / 135 18 034
   <br>
   <br>
 </h3>
