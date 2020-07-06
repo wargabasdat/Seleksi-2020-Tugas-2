@@ -1,0 +1,51 @@
+CREATE TABLE product (
+id integer primary key,
+name varchar(100), 
+normal_price float(4), 
+sale_price float(4), 
+rating float(1), 
+status varchar(15));
+
+insert into product (name, normal_price, sale_price, rating, status)
+select p.name, p.normal_price, p.sale_price, p. rating, p.status
+from lego_import l
+cross join lateral json_populate_recordset(null::product, doc) as p
+on conflict (id) do update
+set name = excluded.name,
+normal_price = excluded.normal_price,
+sale_price = excluded.sale_price,
+rating = excluded.rating,
+status = excluded.status;
+
+
+select p.name, p.normal_price, p.sale_price, p. rating, p.status 
+from lego_import l
+cross join lateral json_populate_recordset(null::product, doc) as p
+
+INSERT INTO product(id) VALUES
+DO $$
+BEGIN
+   FOR counter IN 1..461 LOOP
+	RETURN counter;
+   END LOOP;
+END; $$
+
+
+CREATE OR REPLACE FUNCTION counter (n INTEGER) 
+	RETURNS INTEGER AS $$ 
+DECLARE
+   i INTEGER := 0 ; 
+BEGIN
+
+	IF (n < 1) THEN
+		RETURN 0 ;
+	END IF; 
+	
+	LOOP 
+		EXIT WHEN i = n ; 
+		i := i + 1 ; 
+	END LOOP ; 
+	
+	RETURN i ;
+END ; 
+$$ LANGUAGE plpgsql;

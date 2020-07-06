@@ -1,50 +1,85 @@
 <h1 align="center">
   <br>
-  Seleksi 2 Warga Basdat 2020
+  README
   <br>
   <br>
 </h1>
 
-<h2 align="center">
-  <br>
-  Data Storing
-  <br>
-  <br>
-</h2>
+### DESKRIPSI DBMS
+DBMS yang digunakan adalah PostgreSQL. PostgreSQL adalah salah satu jenis DBMS SQL open-source yang berorientasi pada object-relational. Alasan penggunaan PostgreSQL adalah karena cukup mudah digunakan dan author sendiri pernah beberapa kali menggunakan DBMS ini untuk kegiatan perkuliahan. DBMS ini cukup fleksibel bekerja dengan berbagai macam web frameworks. Selain itu, PostgreSQL digunakan oleh beberapa company seperti Goldman Sachs, Bloomberg, United Nations, NOKIA, dan BMW. 
 
 
-## Specifications
+### LANGKAH PENGERJAAN
+Langkah-langkah melakukan proses Data Storing adalah sebagai berikut :
+1. Import file json hasil scraping ke dalam PostgreSQL menjadi sebuah tabel temporal `lego_import` yang hasilnya akan memiliki 1 column dan 1 row.
+2. Membuat sebuah tabel kosong `lego_empty` yang berisikan atribut apa saja yang akan terdapat di dalam database nanti 
+3. Tabel temporal diekstrak dan dibaca dalam file format JSON di dalam DBMS. Proses ekstrak akan membutuhkan tabel kosong untuk melakukan proses join.
+3. Hasil ekstrak dibuat view baru `product_view`
+4. View yang dikonversi menjadi tabel baru `product`
+5. Hasil di dump ke file sql `lego_store.sql`
 
-### Data Storing
+#### Online Data Storing
+1. Membuat account di https://www.elephantsql.com/, saya memilih jenis plan tidak berbayar atau *free*
+2. Create new instance 
+3. Mengupload file hasil dump di bagian backup lalu klik restore
 
-1. Lakukan _storing_ data yang didapatkan dari hasil _scrapping_ (Tugas 1) ke DBMS 
+### SCREENSHOT PROGRAM
+Source code yang diubah untuk mengubah JSON structure.
+![Screenshot 6](screenshots/Capture_6.PNG?raw=true "Edited source code")
 
-2. Tools yang digunakan __dibebaskan__
+![Screenshot 7](screenshots/Capture_7.PNG?raw=true "Edited source code")
 
-3. Dalam pengerjaan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: https://github.com/wargabasdat/Seleksi-2020-Tugas-2. Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_2_[NIM]```
+Query untuk melakukan storing data ke DBMS
+![Screenshot 1](screenshots/Capture_1.PNG?raw=true "Query")
 
-4. Pada _repository_ tersebut, calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Repository_ Tugas 2 terdiri dari folder `data`, `screenshots` dan `export`
-    - _Folder_ `data` berisi data hasil dari _scrapping_
-    - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
-    - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
+Isi table `lego_import`
+![Screenshot 2](screenshots/Capture_2.PNG?raw=true "lego_import")
 
-5. Deadline pengumpulan tugas ini adalah __6 Juli 2020 Pukul 23.59__
+Isi table `lego_empty`
+![Screenshot 3](screenshots/Capture_3.PNG?raw=true "lego_empty")
 
-6. Berikan README yang berisikan konten minimal berupa :
-    - Description of the DBMS (Why you choose it)
-    - Screenshot (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-    - Reference (Library used, etc)
-    - Author
+Isi view `product_view`
+![Screenshot 4](screenshots/Capture_4.PNG?raw=true "product_view")
 
-7. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    1. Simpan ke database online
-    2. Buatlah API sederhana untuk mengakses database online tersebut
-    3. ...
+Isi table `product`
+![Screenshot 5](screenshots/Capture_5.PNG?raw=true "product")
+
+Penyimpanan database online di ElephantSQL 
+![Screenshot 8](screenshots/Capture_8.PNG?raw=true "ELephantSQL")
+URL dan server
+![Screenshot 9](screenshots/Capture_9.JPG?raw=true "Server and URL")
 
 
-<h3 align="center">
-  <br>
-  Lab Basdat 2020
-  <br>
-  <br>
-</h3>
+### REFERENCE
+Berikut adalah beberapa website referensi yang digunakan dalam membantu pengerjaan tugas ini :
+
+https://www.blendo.co/blog/storing-json-in-postgresql/
+https://www.postgresql.org/docs/9.6/datatype-json.html
+https://www.postgresqltutorial.com/postgresql-json/
+https://json.org/example.html
+https://www.postgresql.org/docs/current/datatype-json.html#JSON-KEYS-ELEMENTS
+https://stackoverflow.com/questions/39224382/how-can-i-import-a-json-file-into-postgresql
+https://www.it-swarm.dev/id/sql/bagaimana-saya-bisa-mengimpor-file-json-ke-postgresql/826492462/
+https://stackoverflow.com/questions/42865013/create-array-of-json-objects-from-for-loops
+https://codebeautify.org/jsonviewer
+https://www.alibabacloud.com/blog/
+https://medium.com/@noogetz/how-to-setup-a-database-with-elephantsql-7d87ea9953d0
+
+Library used :
+JSON library
+
+Online Database :
+ElephantSQL
+
+### EVALUASI
+Karena keterbatasan waktu yang dimiliki, author tidak sempat mengubah hasil json pada Tugas 1 yang hanya bertotal 461 produk meski seharusnya 900 produk saat proses scraping. 
+
+Import sempat bermasalah karena structure JSON yang berbentuk list tidak sesuai yang diharapkan oleh psql, maka beberapa source code diubah untuk mendapatkan file JSON baru dengan structure array, yakni dengan nama file `lego_edited.json`.
+
+Kemudian masih terdapat ketidakefektifan dalam storing, yakni harus dibuat tabel kosong dan view sehingga harus melakukan `DROP TABLE` secara manual di akhir.
+
+
+### AUTHOR
+Hollyana Puteri Haryono
+18218013
+Sistem dan Teknologi informasi
