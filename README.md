@@ -16,7 +16,7 @@
 
 DBMS yang saya gunakan untuk mengerjakan tugas ini ialah PostgreSQL. Alasan saya menggunakan DBMS ini ialah saya sudah familiar dengan basis data berbasis SQL. Selain itu juga dikarenakan data yang saya _extract_ cocok menggunakan basis data relasional.
 
-Di dalam folder `data` terdapat file *TopRatedTVShowGenre.json* yang berisi data tv shows dengan _key_ title dan genre. Saya memisahkan _key_ genre dari file *TopRatedRTVShow.json* dimaksudkan untuk memudahkan saya dalam melakukan _import_ file .json ke dalam file .sql
+Di dalam folder `data` terdapat file *TopRatedTVShowGenreData.json* yang berisi data tv shows dengan _key_ title dan genre. Saya memisahkan _key_ genre dari file *TopRatedTVShowData.json* dimaksudkan untuk memudahkan saya dalam melakukan _import_ file .json ke dalam file .sql
 
 Untuk penyimpanan basis data daring, saya menggunakan [Caspio](caspio.com) dikarenakan kemudahan akses basis data, gratis dan tidak memerlukan informasi kartu kredit dalam pendaftarannya.
 
