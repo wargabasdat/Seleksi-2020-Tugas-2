@@ -12,34 +12,39 @@
   <br>
 </h2>
 
+## Description of the DBMS
 
-## Specifications
+DBMS yang saya gunakan untuk mengerjakan tugas ini ialah PostgreSQL. Alasan saya menggunakan DBMS ini ialah saya sudah familiar dengan basis data berbasis SQL. Selain itu juga dikarenakan data yang saya _extract_ cocok menggunakan basis data relasional.
 
-### Data Storing
+Di dalam folder `data` terdapat file *TopRatedTVShowGenreData.json* yang berisi data tv shows dengan _key_ title dan genre. Saya memisahkan _key_ genre dari file *TopRatedTVShowData.json* dimaksudkan untuk memudahkan saya dalam melakukan _import_ file .json ke dalam file .sql
 
-1. Lakukan _storing_ data yang didapatkan dari hasil _scrapping_ (Tugas 1) ke DBMS 
+Untuk penyimpanan basis data daring, saya menggunakan [Caspio](caspio.com) dikarenakan kemudahan akses basis data, gratis dan tidak memerlukan informasi kartu kredit dalam pendaftarannya.
 
-2. Tools yang digunakan __dibebaskan__
+## Screenshot
 
-3. Dalam pengerjaan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: https://github.com/wargabasdat/Seleksi-2020-Tugas-2. Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_2_[NIM]```
+*Skema Basis Data*
 
-4. Pada _repository_ tersebut, calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Repository_ Tugas 2 terdiri dari folder `data`, `screenshots` dan `export`
-    - _Folder_ `data` berisi data hasil dari _scrapping_
-    - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
-    - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
+![alt text](screenshots/ss3.png)
 
-5. Deadline pengumpulan tugas ini adalah __6 Juli 2020 Pukul 23.59__
+*Penyimpanan Data ke dalam PostgreSQL*
 
-6. Berikan README yang berisikan konten minimal berupa :
-    - Description of the DBMS (Why you choose it)
-    - Screenshot (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-    - Reference (Library used, etc)
-    - Author
+![alt text](screenshots/ss1.png)
 
-7. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    1. Simpan ke database online
-    2. Buatlah API sederhana untuk mengakses database online tersebut
-    3. ...
+*Penyimpanan Basis Data ke dalam Cloud Database Online*
+
+![alt text](screenshots/ss2.png)
+
+## Reference
+
+* json
+* [Caspio](caspio.com)
+* [draw.io](draw.io)
+
+## Author
+
+*Indra Febrio Nugroho*
+
+*13518016*
 
 
 <h3 align="center">
