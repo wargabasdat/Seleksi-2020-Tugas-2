@@ -41,6 +41,30 @@
     2. Buatlah API sederhana untuk mengakses database online tersebut
     3. ...
 
+## Description of the DBMS (Why you choose it)
+Database yang digunakan untuk menampung data hasil scraping adalah MongoDB. MongoDB merupakan DBMS yang berbasis NoSQL. Alasan menggunakan MongoDB karena dalam penyimpanan NoSQL data yang disimpan tidak rigid, melihat data hasil scraping banyak data yang tidak tersedia. (Cth: pada Movie dengan title "Filosofi Kopi The Movie 2 Ben & Jody" memiliki atribut starring dan director sedangkan Movie dengan title "The Legendary Lackey" tidak memiliki kedua atribut tersebut). MongoDB juga termasuk salah satu DBMS NoSQL terbaik
+
+## Screenshot (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
+1. Mengimport data hasil scraping ke MongoDB
+![Image of 1](https://github.com/inkariyadi/Seleksi-2020-Tugas-2/blob/master/screenshot/Mengimport%20data%20hasil%20scraping%20ke%20MongoDB.png)
+
+2. Collection data hasil scraping di MongoDB
+![Image of 2](https://github.com/inkariyadi/Seleksi-2020-Tugas-2/blob/master/screenshot/Collection%20data%20hasil%20scraping%20di%20MongoDB.png)
+3. Mengexport data hasil scraping dari MongoDB
+![Image of 3](https://github.com/inkariyadi/Seleksi-2020-Tugas-2/blob/master/screenshot/Mengexport%20data%20hasil%20scraping%20dari%20MongoDB.png)
+4. Memasukkan data ke database online menggunakan MongoDb Atlas
+![Image of 4](https://github.com/inkariyadi/Seleksi-2020-Tugas-2/blob/master/screenshot/Memasukkan%20data%20ke%20database%20online%20menggunakan%20MongoDb%20Atlas.png)
+
+
+## Reference (Library used, etc)
+- DBMS : MongoDB
+- DBMS Online : Atlas
+
+## Author
+- Inka Anindya Riyadi
+- 13518038
+- Teknik Informatika 2018
+- Institut Teknologi Bandung
 
 <h3 align="center">
   <br>
