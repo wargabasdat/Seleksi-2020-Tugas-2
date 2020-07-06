@@ -4,9 +4,9 @@ PostgreSQL supports both SQL and JSON format. Although pgDump results the data s
 ## Screenshots
 1. Altering JSON structure
 
-![JSONbefore](/screenshot/altering_json1.png)
+![JSONbefore(smtown.json)](/screenshot/altering_json1.png)
 
-![JSONafter](/screenshot/altering_json2.png)
+![JSONafter(smtown_export.json)](/screenshot/altering_json2.png)
 
 2. Create new database for importing JSON (named smtown)
 
