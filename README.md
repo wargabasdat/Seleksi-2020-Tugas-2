@@ -41,6 +41,25 @@
     2. Buatlah API sederhana untuk mengakses database online tersebut
     3. ...
 
+## Description of the DBMS (Why you choose it)
+Database yang digunakan untuk menampung data hasil scraping adalah MongoDB. MongoDB merupakan DBMS yang berbasis NoSQL. Alasan menggunakan MongoDB karena dalam penyimpanan NoSQL data yang disimpan tidak rigid, melihat data hasil scraping banyak data yang tidak tersedia. (Cth: pada Movie dengan title "Filosofi Kopi The Movie 2 Ben & Jody" memiliki atribut starring dan director sedangkan Movie dengan title "The Legendary Lackey" tidak memiliki kedua atribut tersebut). MongoDB juga termasuk salah satu DBMS NoSQL terbaik
+
+## Screenshot (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
+1. Mengimport data hasil scraping ke MongoDB
+2. Collection data hasil scraping di MongoDB
+3. Mengexport data hasil scraping dari MongoDB
+4. Memasukkan data ke database online menggunakan MongoDb Atlas
+
+
+## Reference (Library used, etc)
+DBMS : MongoDB
+DBMS Online : Atlas
+
+## Author
+Inka Anindya Riyadi
+13518038
+Teknik Informatika 2018
+Institut Teknologi Bandung
 
 <h3 align="center">
   <br>
