@@ -28,6 +28,8 @@ Deploy dilakukan di Google Cloud Platform
 - https://datatofish.com/json-string-to-csv-python/
 - https://www.postgresqltutorial.com/import-csv-file-into-posgresql-table/
 - https://www.a2hosting.co.id/kb/developer-corner/postgresql/import-and-export-a-postgresql-database
+- https://medium.com/@dmahugh_70618/deploying-a-flask-app-to-google-app-engine-faa883b5ffab
+- https://cloud.google.com/sql/docs/postgres/connect-app-engine-standard
 
 ## Author 
 Cynthia Athena M. S. - 13518059
