@@ -46,9 +46,13 @@ Database yang digunakan untuk menampung data hasil scraping adalah MongoDB. Mong
 
 ## Screenshot (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
 1. Mengimport data hasil scraping ke MongoDB
+![Image of 1](https://github.com/inkariyadi/Seleksi-2020-Tugas-2/blob/master/screenshot/Mengimport%20data%20hasil%20scraping%20ke%20MongoDB.png)
 2. Collection data hasil scraping di MongoDB
+![Image of 2](https://github.com/inkariyadi/Seleksi-2020-Tugas-2/blob/master/screenshot/Collection%20data%20hasil%20scraping%20di%20MongoDB.png)
 3. Mengexport data hasil scraping dari MongoDB
+![Image of 3](https://github.com/inkariyadi/Seleksi-2020-Tugas-2/blob/master/screenshot/Mengexport%20data%20hasil%20scraping%20dari%20MongoDB.png)
 4. Memasukkan data ke database online menggunakan MongoDb Atlas
+![Image of 4](https://github.com/inkariyadi/Seleksi-2020-Tugas-2/blob/master/screenshot/Memasukkan%20data%20ke%20database%20online%20menggunakan%20MongoDb%20Atlas.png)
 
 
 ## Reference (Library used, etc)
