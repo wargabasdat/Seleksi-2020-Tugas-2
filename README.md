@@ -1,50 +1,60 @@
 <h1 align="center">
   <br>
-  Seleksi 2 Warga Basdat 2020
+  README
   <br>
   <br>
 </h1>
 
-<h2 align="center">
-  <br>
-  Data Storing
-  <br>
-  <br>
-</h2>
+### DESKRIPSI DBMS
+DBMS yang digunakan adalah PostgreSQL. PostgreSQL adalah salah satu jenis DBMS SQL open-source yang berorientasi pada object-relational. Alasan penggunaan PostgreSQL adalah karena cukup mudah digunakan dan saya sendiri pernah beberapa kali menggunakan DBMS ini untuk kegiatan perkuliahan. 
+
+### SPESIFIKASI 
+Langkah-langkah melakukan proses Data Storing adalah sebagai berikut :
+1. Import file json hasil scraping ke dalam PostgreSQL menjadi sebuah tabel temporal `lego_import` yang hasilnya akan memiliki 1 column dan 1 row.
+2. Membuat sebuah tabel kosong `lego_empty` yang berisikan atribut apa saja yang akan terdapat di dalam database nanti 
+3. Tabel temporal diekstrak dan dibaca dalam file format JSON di dalam DBMS. Proses ekstrak akan membutuhkan tabel kosong untuk melakukan proses join.
+3. Hasil ekstrak dibuat view baru `product_view`
+4. View yang dikonversi menjadi tabel baru `product`
+5. Hasil di dump ke file sql
+6. (++) Mengupload database online ------------ edit lg
 
 
-## Specifications
+### SCREENSHOT PROGRAM
 
-### Data Storing
-
-1. Lakukan _storing_ data yang didapatkan dari hasil _scrapping_ (Tugas 1) ke DBMS 
-
-2. Tools yang digunakan __dibebaskan__
-
-3. Dalam pengerjaan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: https://github.com/wargabasdat/Seleksi-2020-Tugas-2. Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_2_[NIM]```
-
-4. Pada _repository_ tersebut, calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Repository_ Tugas 2 terdiri dari folder `data`, `screenshots` dan `export`
-    - _Folder_ `data` berisi data hasil dari _scrapping_
-    - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
-    - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
-
-5. Deadline pengumpulan tugas ini adalah __6 Juli 2020 Pukul 23.59__
-
-6. Berikan README yang berisikan konten minimal berupa :
-    - Description of the DBMS (Why you choose it)
-    - Screenshot (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-    - Reference (Library used, etc)
-    - Author
-
-7. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    1. Simpan ke database online
-    2. Buatlah API sederhana untuk mengakses database online tersebut
-    3. ...
+![Screenshot 1](screenshots/Capture_1.PNG?raw=true "Capture 1")
+![Screenshot 2](screenshots/Capture_2.PNG?raw=true "Capture 2")
+![Screenshot 3](screenshots/Capture_3.PNG?raw=true "Capture 3")
+![Screenshot 4](screenshots/Capture_4.PNG?raw=true "Capture 4")
+![Screenshot 5](screenshots/Capture_5.PNG?raw=true "Capture 5")
+![Screenshot 6](screenshots/Capture_6.PNG?raw=true "Capture 6")
+![Screenshot 7](screenshots/Capture_7.PNG?raw=true "Capture 7")
 
 
-<h3 align="center">
-  <br>
-  Lab Basdat 2020
-  <br>
-  <br>
-</h3>
+
+### REFERENCE
+Berikut adalah beberapa referensi yang digunakan dalam membantu pengerjaan tugas ini :
+https://www.blendo.co/blog/storing-json-in-postgresql/
+https://www.postgresql.org/docs/9.6/datatype-json.html
+https://www.postgresqltutorial.com/postgresql-json/
+https://json.org/example.html
+https://www.postgresql.org/docs/current/datatype-json.html#JSON-KEYS-ELEMENTS
+https://stackoverflow.com/questions/39224382/how-can-i-import-a-json-file-into-postgresql
+https://www.it-swarm.dev/id/sql/bagaimana-saya-bisa-mengimpor-file-json-ke-postgresql/826492462/
+https://stackoverflow.com/questions/42865013/create-array-of-json-objects-from-for-loops
+https://codebeautify.org/jsonviewer
+https://stackoverflow.com/questions/13485030/strange-postgresql-value-too-long-for-type-character-varying500
+https://stackoverflow.com/questions/34104732/create-loop-to-create-postgresql-columns
+https://www.postgresqltutorial.com/plpgsql-loop-statements/#:~:text=The%20WHILE%20loop%20statement%20executes,it%20is%20evaluated%20to%20false.
+https://www.alibabacloud.com/blog/use-of-the-postgresql-upsert-insert-on-conflict-do-function_596027
+https://www.postgresqltutorial.com/postgresql-create-procedure/
+
+
+
+### EVALUASI
+Karena keterbatasan waktu yang dimiliki, author tidak sempat mengubah hasil json yang hanya bertotal 461 produk meski seharusnya 900 produk saat proses scraping. 
+Kemudian masih terdapat ketidakefektifan dalam storing, yakni tabel kosong tidak dapat dihapus karena terdapat dependensi dari view yang dibuat
+
+### AUTHOR
+Hollyana Puteri Haryono
+18218013
+Sistem dan Teknologi informasi
