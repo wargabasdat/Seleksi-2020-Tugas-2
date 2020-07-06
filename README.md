@@ -21,7 +21,7 @@ Untuk mengimport data dari file json ke dalam database, dibuat program menggunak
 
 ## Proses Memasukkan Hasil Scraping
 
-Sebelum menjalankan program, pastikan file json hasil scraping telah ditaruh pada folder data.
+Sebelum menjalankan program, pastikan file json hasil scraping telah ditaruh pada folder data serta telah membuat tabel relasi aircraft_accidents pada database yang akan dibuat menggunakan query [ini](https://github.com/regnents/Seleksi-2020-Tugas-2/blob/master/screenshots/create%20table.jpg).
 
 Proses memasukkan data hasil scraping dari file json ke database dapat dilakukan dengan cara menjalankan: (py dapat diganti menjadi python atau python3 bila program error)
 ```
@@ -37,13 +37,18 @@ Query pembuatan tabel<br>
 Daftar atribut pada tabel<br>
 ![Atribut pada tabel](https://github.com/regnents/Seleksi-2020-Tugas-2/blob/master/screenshots/table-1.jpg "Atribut yang dimiliki Tabel")
 
+Potongan gambar program untuk mengimport data dari file json ke database:<br>
+![program](https://github.com/regnents/Seleksi-2020-Tugas-2/blob/master/screenshots/program-insert.jpg "Program")
+
 Data ditampilkan melalui pgAdmin<br>
 ![data](https://github.com/regnents/Seleksi-2020-Tugas-2/blob/master/screenshots/data.jpg "Data pada pgAdmin")
 
 ## Reference
 
+Program pada folder src_insert menggunakan bahasa python dengan library sebagai berikut:
 - Pscycopg2 (<https://www.psycopg.org/docs/>)
 - json (<https://docs.python.org/3/library/json.html>)
+- re (<https://docs.python.org/3/library/re.html>)
 
 ## Author
 
