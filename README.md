@@ -16,8 +16,8 @@
 PostgreSQL adalah suatu open-source relational database management system. Saya menggunakan SQL database karena lebih familiar dengan database tersebut dari mata kuliah basis data. Selain itu, postgreSQL dapat dengan efisien menangani data dengan volume besar, lalu kita juga dapat dengan mudah melakukan visualisasi data.
 
 ## Screenshots
-![Screenshot1] (/screenshots/Screenshot1.png)
-![Screenshot2] (/screenshots/Screenshot2.png)
+![Screenshot1](/screenshots/Screenshot1.png)
+![Screenshot2](/screenshots/Screenshot2.png)
 
 ## References
 - https://datatofish.com/json-string-to-csv-python/
