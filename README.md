@@ -17,7 +17,17 @@
 
 Pada tugas kali ini, digunakan DBMS PostgreSQL untuk menyimpan data hasil dari <i>scraping</i> pada tugas bagian pertama. PostgreSQL dipilih karena PostgreSQL menggunakan bahasa SQL yang sudah dipelajari pada mata kuliah Basis Data. Selain itu, PostgreSQL memiliki aplikasi pendukung berupa pgAdmin yang memudahkan pengaturan basis data.
 
-Untuk mengimport data dari file json ke dalam database, dibuat file python untuk membantu mengatur data hasil <i>scraping</i> yang bernilai `NULL` (Pada file JSON, ditandai dengan value "Data does not exist"). Untuk melaksanakan hal ini, digunakan library json dan psycopg2 pada python.
+Untuk mengimport data dari file json ke dalam database, dibuat program menggunakan bahasa python untuk membantu mengatur data hasil <i>scraping</i> yang bernilai `NULL` (Pada file JSON, ditandai dengan value "Data does not exist"). Untuk melaksanakan hal ini, digunakan library json dan psycopg2 pada python.
+
+## Proses Memasukkan Hasil Scraping
+
+Sebelum menjalankan program, pastikan file json hasil scraping telah ditaruh pada folder data.
+
+Proses memasukkan data hasil scraping dari file json ke database dapat dilakukan dengan cara menjalankan: (py dapat diganti menjadi python atau python3 bila program error)
+```
+py src_insert/main-insert.py
+```
+lalu memasukkan nama file, nama database, username dan password akun PostgreSQL ketika diminta oleh program
 
 ## Screenshot
 
