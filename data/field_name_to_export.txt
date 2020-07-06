@@ -1,0 +1,37 @@
+Name
+Address
+Grade Spring 2020
+Grade Fall 2019
+Grade Spring 2019
+Grade Fall 2018
+Grade Spring 2018
+Grade Fall 2017
+Grade Spring 2017
+Infection MRSA
+Infection C Diff
+Infection in Blood
+Infection in Urinary Tract
+Infection after Colon Surgery
+Problem with Surgery Object Left in Patient Body
+Problem with Surgery Wound Open
+Problem with Surgery Complications
+Problem with Surgery Collapsed Lung
+Problem with Surgery Breathing Problem
+Problem with Surgery Blood Clot
+Problem with Surgery Accidental Cuts
+Practices to Prevent Errors Order Medications through Computer
+Practices to Prevent Errors Safe Medication Administration
+Practices to Prevent Errors Handwashing
+Practices to Prevent Errors Communication about Medicine
+Practices to Prevent Errors Communication about Discharge
+Practices to Prevent Errors Staff Work Together
+Safety Problems Bed Sores
+Safety Problems Patient Fals and Injuries
+Safety Problems Air on Gas Bubble in Blood
+Safety Problems Track and Reduce Risks
+Doctor Nurse Staff Leadership
+Doctor Nurse Staff Qualified Nurses
+Doctor Nurse Staff Trained Doctors for ICU Patients
+Doctor Nurse Staff Communication with Doctors
+Doctor Nurse Staff Communication with Nurses
+Doctor Nurse Staff Responsiveness of Hospital Staff
