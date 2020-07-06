@@ -13,38 +13,31 @@
 </h2>
 
 
-## Specifications
+## Data Storing
 
-### Data Storing
+### Description of the DBMS
 
-1. Lakukan _storing_ data yang didapatkan dari hasil _scrapping_ (Tugas 1) ke DBMS 
+PostgreSQL merupakan DBMS yang _open source_ sehingga _feasible_ untuk digunakan secara gratis dan mudah. Dapat mengatur beberapa konfigurasi DBMS, seperti indexing, materialize view, dan semacamnya. Terakhir, PostgreSQL sudah cukup saya kuasai karena telah dipelajari di semester kemarin.
 
-2. Tools yang digunakan __dibebaskan__
+### Screenshot
 
-3. Dalam pengerjaan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: https://github.com/wargabasdat/Seleksi-2020-Tugas-2. Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_2_[NIM]```
+![alt text](https://raw.githubusercontent.com/wargabasdat/Seleksi-2020-Tugas-2/99479514dec544da62b8301a4d748a42206077ab/screenshots/bukti%201.PNG)
+![alt text](https://raw.githubusercontent.com/wargabasdat/Seleksi-2020-Tugas-2/99479514dec544da62b8301a4d748a42206077ab/screenshots/bukti%202.PNG)
+![alt text](https://raw.githubusercontent.com/wargabasdat/Seleksi-2020-Tugas-2/99479514dec544da62b8301a4d748a42206077ab/screenshots/bukti%203.PNG)
 
-4. Pada _repository_ tersebut, calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Repository_ Tugas 2 terdiri dari folder `data`, `screenshots` dan `export`
-    - _Folder_ `data` berisi data hasil dari _scrapping_
-    - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
-    - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
+### Reference 
 
-5. Deadline pengumpulan tugas ini adalah __6 Juli 2020 Pukul 23.59__
+1. Library:
+  - urlopen
+  - BeautifulSoup
+  - csv
+  - json
 
-6. Berikan README yang berisikan konten minimal berupa :
-    - Description of the DBMS (Why you choose it)
-    - Screenshot (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-    - Reference (Library used, etc)
-    - Author
+2. Website:
+  - https://stackoverflow.com/questions/20039856/import-excel-data-into-postgresql-9-3
+  - https://www.vultr.com/docs/how-to-backup-and-restore-postgresql-databases-on-ubuntu-16-04
 
-7. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    1. Simpan ke database online
-    2. Buatlah API sederhana untuk mengakses database online tersebut
-    3. ...
+### Author
 
+Muhamad Ilman Sukarsa - Sistem dan Teknologi Informasi - 18218021
 
-<h3 align="center">
-  <br>
-  Lab Basdat 2020
-  <br>
-  <br>
-</h3>
