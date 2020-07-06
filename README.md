@@ -12,39 +12,26 @@
   <br>
 </h2>
 
+## Descriptions of the DBMS 
+PostgreSQL adalah suatu open-source relational database management system. Saya menggunakan SQL database karena lebih familiar dengan database tersebut dari mata kuliah basis data. Selain itu, postgreSQL dapat dengan efisien menangani data dengan volume besar, lalu kita juga dapat dengan mudah melakukan visualisasi data.
 
-## Specifications
+## API and Deployment
+Deploy dilakukan di Google Cloud Platform 
+- untuk mendapatkan semua data dari table : https://centering-timer-282504.et.r.appspot.com/products
+- untuk mendapatkan data dengan id spesifik : https://centering-timer-282504.et.r.appspot.com/products/<"id"> , contoh : https://centering-timer-282504.et.r.appspot.com/products/1
 
-### Data Storing
+## Screenshots
+![Screenshot1](/screenshots/Screenshot1.png)
+![Screenshot2](/screenshots/Screenshot2.png)
 
-1. Lakukan _storing_ data yang didapatkan dari hasil _scrapping_ (Tugas 1) ke DBMS 
+## References
+- https://datatofish.com/json-string-to-csv-python/
+- https://www.postgresqltutorial.com/import-csv-file-into-posgresql-table/
+- https://www.a2hosting.co.id/kb/developer-corner/postgresql/import-and-export-a-postgresql-database
+- https://medium.com/@dmahugh_70618/deploying-a-flask-app-to-google-app-engine-faa883b5ffab
+- https://cloud.google.com/sql/docs/postgres/connect-app-engine-standard
 
-2. Tools yang digunakan __dibebaskan__
-
-3. Dalam pengerjaan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: https://github.com/wargabasdat/Seleksi-2020-Tugas-2. Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_2_[NIM]```
-
-4. Pada _repository_ tersebut, calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _Repository_ Tugas 2 terdiri dari folder `data`, `screenshots` dan `export`
-    - _Folder_ `data` berisi data hasil dari _scrapping_
-    - _Folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS
-    - _Folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS))
-
-5. Deadline pengumpulan tugas ini adalah __6 Juli 2020 Pukul 23.59__
-
-6. Berikan README yang berisikan konten minimal berupa :
-    - Description of the DBMS (Why you choose it)
-    - Screenshot (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-    - Reference (Library used, etc)
-    - Author
-
-7. Task-task berikut bersifat tidak wajib (__BONUS__), boleh dikerjakan sebagian atau seluruhnya
-    1. Simpan ke database online
-    2. Buatlah API sederhana untuk mengakses database online tersebut
-    3. ...
+## Author 
+Cynthia Athena M. S. - 13518059
 
 
-<h3 align="center">
-  <br>
-  Lab Basdat 2020
-  <br>
-  <br>
-</h3>
