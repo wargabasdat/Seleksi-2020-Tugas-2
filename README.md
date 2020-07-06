@@ -18,7 +18,7 @@ PostgreSQL adalah suatu open-source relational database management system. Saya 
 ## API and Deployment
 Deploy dilakukan di Google Cloud Platform 
 - untuk mendapatkan semua data dari table : https://centering-timer-282504.et.r.appspot.com/products
-- untuk mendapatkan data dengan id spesifik : https://centering-timer-282504.et.r.appspot.com/products/<id> , contoh : https://centering-timer-282504.et.r.appspot.com/products/1
+- untuk mendapatkan data dengan id spesifik : https://centering-timer-282504.et.r.appspot.com/products/<"id"> , contoh : https://centering-timer-282504.et.r.appspot.com/products/1
 
 ## Screenshots
 ![Screenshot1](/screenshots/Screenshot1.png)
