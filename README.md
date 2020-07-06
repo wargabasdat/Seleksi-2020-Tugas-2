@@ -1,6 +1,6 @@
 ## US Hospital
 
-![acmh](/screenshot/ACMH.jpg)
+![acmh](/screenshots/ACMH.jpg)
 US Hospital: ACMH <br/>
 source: http://www.cvexcel.org/AccreditedFacilitiesdetails.aspx?cid=f843fdaa-5592-405a-a569-71788cd564a9
 
@@ -11,7 +11,7 @@ This README.md contains the following:
 
 - [Description of DBMS](#description-of-dbms)
 - [Description of Data](#description-of-data)
-- [Workflow and Screenshot](#workflow-and-screenshot)
+- [Workflow and Screenshots](#workflow-and-screenshots)
 - [Access Data with API](#access-data-with-api)
 - [Reference](#reference)
 - [Author](#author)
@@ -23,9 +23,9 @@ MongoDB is NoSQL database program. It stores data as a document. Unlike SQL prog
 
 I use MongoDB because MongoDB can import JSON data easily. Other database program need a more complicated way just to import JSON data, or at least I can't find the easy tutorial on Google or Youtube. Also, MongoDB has a good popularity, well documentation, and many support from developers.
 
-![dbpie](/screenshot/mongodbpie.png)
+![dbpie](/screenshots/mongodbpie.png)
 source: https://scalegrid.io/blog/2019-database-trends-sql-vs-nosql-top-databases-single-vs-multiple-database-use/
-![dbtrend](/screenshot/dbtrend.png)
+![dbtrend](/screenshots/dbtrend.png)
 source: https://db-engines.com/en/ranking
 
 
@@ -34,7 +34,7 @@ source: https://db-engines.com/en/ranking
 I will use the data from previous task [here](https://github.com/KevinCahyadiGiri/USHospital). This is US hospital grade information from www.hospitalsafetygrade.org. The data stored in JSON format named Hospital_Data.json.
 
 
-## Workflow and Screenshot
+## Workflow and Screenshots
 
 I will store the hospital data in MongoDB and will upload the data in Firebase Database.
 
@@ -42,7 +42,7 @@ I will store the hospital data in MongoDB and will upload the data in Firebase D
 The Hospital_Data.json is not in JSON Array structure. To ease the importing, we need to modify the data into JSON Array structure. <br/>
 I create a Python (Notebook) program called FixingJSON.ipynb. This program will create a new JSON data named us_hospital_fixed.json as a modified structure of Hospital_Data.json. 
 
-![FixingJSON.ipynb](/screenshot/fixjson.png)
+![FixingJSON.ipynb](/screenshots/fixjson.png)
 
 This program will create us_hospital_fixed.json in JSON Array structure. <br/>
 <br/>
@@ -88,52 +88,52 @@ I open up the two terminals in the directory where I placed the JSON data. First
 I need to check whether US Hospital data is already placed or not. <br/>
 
 I will type `show dbs` to list databases stored in MongoDB.
-![showdbs_before](/screenshot/showdbsBeforeImport.png)
+![showdbs_before](/screenshots/showdbsBeforeImport.png)
 
 Currently, US hospital data were not stored yet. Now, I will import the us_hospital_fixed.json into MongoDB.
 
 To import JSON Array structured data, open up another terminal in the same directory and type `mongoimport --jsonArray --db usHospital--collection usHospitalGrades --file us_hospital_fixed.json` <br/>
 
-![importjson](/screenshot/importjson.png)
+![importjson](/screenshots/importjson.png)
 
 I will call again `show dbs` and check whether the data is successfully stored or not. 
 
-![showdbs_after](/screenshot/showdbsAfterImport.png)
+![showdbs_after](/screenshots/showdbsAfterImport.png)
 
 Success. US Hospital Grade data stored.
 
 4. Take a Look of Hospital Data
 Below, I perform some code supported by MongoDB to see our data.
 
-![countdocument](/screenshot/countdocument.png)
+![countdocument](/screenshots/countdocument.png)
 
-![findone](/screenshot/findone.png)
+![findone](/screenshots/findone.png)
 
-![countgrade](/screenshot/countgrade.png)
+![countgrade](/screenshots/countgrade.png)
 
-![findname](/screenshot/findname.png)
+![findname](/screenshots/findname.png)
 
 5. Export US Hospital Data
 Now, I will export the US Hospital data. The documentation said we can export the documents in JSON or CSV format. I will export to CSV because I don't want to create a new file which actually the same data that I import earlier.
 
 To export into CSV, open up another terminal and type `mongoexport --db=usHospital --collection=usHospitalGrades --type=csv --fieldFile=field_name_to_export.txt --out=../export/us_hospital_export.csv`. <br/>
 
-![mongoexport](/screenshot/exportcsv.png)
+![mongoexport](/screenshots/exportcsv.png)
 
 To export into CSV, we can specify column name. fieldFile parameter takes the input as the file which contain our column name. This data will have many columns and I don't want to type a long code in terminal, so I will store field name in file and call it. I used Python (Notebook) program to generate the columns name then I copy and paste into field_name_to_export.txt. <br/>
 
-![columnprogram](/screenshot/csvfieldname.png)
+![columnprogram](/screenshots/csvfieldname.png)
 
 6. Store the Data in Firebase Database
 
 To store my data into Firebase Database, I need Firebase account. After that, create a project and go to Database section then create Realtime Database. <br/>
 Click on three-points menu (sorry don't know the name) to show other feature.
 
-![showMoreFirebase](/screenshot/firebase.png)
+![showMoreFirebase](/screenshots/firebase.png)
 
 Click 'Import JSON' and select us_hospital_fixed.json data. <br/>
 
-![imported](/screenshot/firebaseimported.png)
+![imported](/screenshots/firebaseimported.png)
 
 Here, we can see my data has successfully imported.
 
@@ -144,13 +144,13 @@ I created API to access the hospital data in restdb.io. Unfortunately, restdb.io
 
 Firstly, I need to create JSON with 20 records only, so I created another Python (Notebook) program named 20records.ipynb. 
 
-![python20](/screenshot/python20.png)
+![python20](/screenshots/python20.png)
 
 It will export JSON file named us_hospital_20.json which contain only 20 records. <br/>
 
 After that, I upload this file into restdb.io.
 
-![restdb](/screenshot/restdb.png)
+![restdb](/screenshots/restdb.png)
 
 To get the data, we can perform HTTP request. Open the terminal and type :
 
@@ -163,7 +163,7 @@ curl -i -H "Accept: application/json"\
 
 Here's the result.
 
-![terminaloutput](/screenshot/terminalgetrestdb.png)
+![terminaloutput](/screenshots/terminalgetrestdb.png)
 
 
 ## Reference
