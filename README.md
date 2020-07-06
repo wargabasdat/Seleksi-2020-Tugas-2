@@ -6,7 +6,8 @@
 </h1>
 
 ### DESKRIPSI DBMS
-DBMS yang digunakan adalah PostgreSQL. PostgreSQL adalah salah satu jenis DBMS SQL open-source yang berorientasi pada object-relational. Alasan penggunaan PostgreSQL adalah karena cukup mudah digunakan dan author sendiri pernah beberapa kali menggunakan DBMS ini untuk kegiatan perkuliahan. Selain itu DBMS ini  
+DBMS yang digunakan adalah PostgreSQL. PostgreSQL adalah salah satu jenis DBMS SQL open-source yang berorientasi pada object-relational. Alasan penggunaan PostgreSQL adalah karena cukup mudah digunakan dan author sendiri pernah beberapa kali menggunakan DBMS ini untuk kegiatan perkuliahan. DBMS ini cukup fleksibel bekerja dengan berbagai macam web frameworks. Selain itu, PostgreSQL digunakan oleh beberapa company seperti Goldman Sachs, Bloomberg, United Nations, NOKIA, dan BMW. 
+
 
 ### LANGKAH PENGERJAAN
 Langkah-langkah melakukan proses Data Storing adalah sebagai berikut :
@@ -17,6 +18,10 @@ Langkah-langkah melakukan proses Data Storing adalah sebagai berikut :
 4. View yang dikonversi menjadi tabel baru `product`
 5. Hasil di dump ke file sql `lego_store.sql`
 
+#### Online Data Storing
+1. Membuat account di https://www.elephantsql.com/, saya memilih jenis plan tidak berbayar atau *free*
+2. Create new instance 
+3. Mengupload file hasil dump di bagian backup lalu klik restore
 
 ### SCREENSHOT PROGRAM
 Source code yang diubah untuk mengubah JSON structure.
@@ -39,6 +44,11 @@ Isi view `product_view`
 Isi table `product`
 ![Screenshot 5](screenshots/Capture_5.PNG?raw=true "product")
 
+Penyimpanan database online di ElephantSQL 
+![Screenshot 8](screenshots/Capture_8.PNG?raw=true "ELephantSQL")
+URL dan server
+![Screenshot 9](screenshots/Capture_9.JPG?raw=true "Server and URL")
+
 
 ### REFERENCE
 Berikut adalah beberapa website referensi yang digunakan dalam membantu pengerjaan tugas ini :
@@ -53,9 +63,13 @@ https://www.it-swarm.dev/id/sql/bagaimana-saya-bisa-mengimpor-file-json-ke-postg
 https://stackoverflow.com/questions/42865013/create-array-of-json-objects-from-for-loops
 https://codebeautify.org/jsonviewer
 https://www.alibabacloud.com/blog/
+https://medium.com/@noogetz/how-to-setup-a-database-with-elephantsql-7d87ea9953d0
 
 Library used :
 JSON library
+
+Online Database :
+ElephantSQL
 
 ### EVALUASI
 Karena keterbatasan waktu yang dimiliki, author tidak sempat mengubah hasil json pada Tugas 1 yang hanya bertotal 461 produk meski seharusnya 900 produk saat proses scraping. 
@@ -63,6 +77,7 @@ Karena keterbatasan waktu yang dimiliki, author tidak sempat mengubah hasil json
 Import sempat bermasalah karena structure JSON yang berbentuk list tidak sesuai yang diharapkan oleh psql, maka beberapa source code diubah untuk mendapatkan file JSON baru dengan structure array, yakni dengan nama file `lego_edited.json`.
 
 Kemudian masih terdapat ketidakefektifan dalam storing, yakni harus dibuat tabel kosong dan view sehingga harus melakukan `DROP TABLE` secara manual di akhir.
+
 
 ### AUTHOR
 Hollyana Puteri Haryono
