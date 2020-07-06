@@ -8,7 +8,7 @@
 ### DESKRIPSI DBMS
 DBMS yang digunakan adalah PostgreSQL. PostgreSQL adalah salah satu jenis DBMS SQL open-source yang berorientasi pada object-relational. Alasan penggunaan PostgreSQL adalah karena cukup mudah digunakan dan author sendiri pernah beberapa kali menggunakan DBMS ini untuk kegiatan perkuliahan. Selain itu DBMS ini  
 
-### SPESIFIKASI 
+### LANGKAH PENGERJAAN
 Langkah-langkah melakukan proses Data Storing adalah sebagai berikut :
 1. Import file json hasil scraping ke dalam PostgreSQL menjadi sebuah tabel temporal `lego_import` yang hasilnya akan memiliki 1 column dan 1 row.
 2. Membuat sebuah tabel kosong `lego_empty` yang berisikan atribut apa saja yang akan terdapat di dalam database nanti 
@@ -20,28 +20,29 @@ Langkah-langkah melakukan proses Data Storing adalah sebagai berikut :
 
 ### SCREENSHOT PROGRAM
 Source code yang diubah untuk mengubah JSON structure.
-![Screenshot 6](screenshots/Capture_6.PNG?raw=true "Capture 6")
+![Screenshot 6](screenshots/Capture_6.PNG?raw=true "Edited source code")
 
-![Screenshot 7](screenshots/Capture_7.PNG?raw=true "Capture 7")
+![Screenshot 7](screenshots/Capture_7.PNG?raw=true "Edited source code")
 
 Query untuk melakukan storing data ke DBMS
-![Screenshot 1](screenshots/Capture_1.PNG?raw=true "Capture 1")
+![Screenshot 1](screenshots/Capture_1.PNG?raw=true "Query")
 
 Isi table `lego_import`
-![Screenshot 2](screenshots/Capture_2.PNG?raw=true "Capture 2")
+![Screenshot 2](screenshots/Capture_2.PNG?raw=true "lego_import")
 
 Isi table `lego_empty`
-![Screenshot 3](screenshots/Capture_3.PNG?raw=true "Capture 3")
+![Screenshot 3](screenshots/Capture_3.PNG?raw=true "lego_empty")
 
 Isi view `product_view`
-![Screenshot 4](screenshots/Capture_4.PNG?raw=true "Capture 4")
+![Screenshot 4](screenshots/Capture_4.PNG?raw=true "product_view")
 
 Isi table `product`
-![Screenshot 5](screenshots/Capture_5.PNG?raw=true "Capture 5")
+![Screenshot 5](screenshots/Capture_5.PNG?raw=true "product")
 
 
 ### REFERENCE
-Berikut adalah beberapa referensi yang digunakan dalam membantu pengerjaan tugas ini :
+Berikut adalah beberapa website referensi yang digunakan dalam membantu pengerjaan tugas ini :
+
 https://www.blendo.co/blog/storing-json-in-postgresql/
 https://www.postgresql.org/docs/9.6/datatype-json.html
 https://www.postgresqltutorial.com/postgresql-json/
@@ -53,11 +54,15 @@ https://stackoverflow.com/questions/42865013/create-array-of-json-objects-from-f
 https://codebeautify.org/jsonviewer
 https://www.alibabacloud.com/blog/
 
+Library used :
+JSON library
 
 ### EVALUASI
 Karena keterbatasan waktu yang dimiliki, author tidak sempat mengubah hasil json pada Tugas 1 yang hanya bertotal 461 produk meski seharusnya 900 produk saat proses scraping. 
+
 Import sempat bermasalah karena structure JSON yang berbentuk list tidak sesuai yang diharapkan oleh psql, maka beberapa source code diubah untuk mendapatkan file JSON baru dengan structure array, yakni dengan nama file `lego_edited.json`.
-Kemudian masih terdapat ketidakefektifan dalam storing, yakni tabel kosong tidak dapat dihapus karena terdapat dependensi dari view yang dibuat
+
+Kemudian masih terdapat ketidakefektifan dalam storing, yakni harus dibuat tabel kosong dan view sehingga harus melakukan `DROP TABLE` secara manual di akhir.
 
 ### AUTHOR
 Hollyana Puteri Haryono
