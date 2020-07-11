@@ -8,6 +8,7 @@
 <h2 align="center">
   <br>
   Tugas 2 : Data Storing dan API Sederhana
+  (Update Deploy API)
   <br>
   Muhammad Fauzan Al-Ghifari
   <br>
@@ -121,19 +122,22 @@ db.internets.find().pretty()
 &nbsp;
 # Menggunakan API sederhana
 
-pastikan dua langkah sebelumnya sudah sukses dijalankan
+API sudah di deploy pada http://apibasdat.herokuapp.com/
 
 1. Buka Postman
 2. Export postman collections dari folder berikut ke dalam postman di komputer anda
 ```
-/api/postman and string/Tugas2.postman_collection.json
+/api/postman and string/Api Basdat 13518112.postman_collection.json
 ```
 3. Gunakan API yang sudah tersedia pada postman collection
 untuk lebih jelas tentang cara mengkonsumsi API-nya dapat dilihat pada demo video
 Link : https://www.youtube.com/watch?v=dL2ZhtTaLK0
+(Pada video API masih local dan belum di deploy)
 
 4. Berikut adalah salah satu contoh API, yang berfungsi untuk mendapatkan semua data internet dari Database
-<img src="/screenshots/postman2.png" alt="Capture1" width="800"/>
+https://apibasdat.herokuapp.com/api/v1/internets/
+
+<img src="/screenshots/postman3.png" alt="Capture1" width="800"/>
 
 &nbsp;
 # Author
