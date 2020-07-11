@@ -122,7 +122,7 @@ db.internets.find().pretty()
 &nbsp;
 # Menggunakan API sederhana
 
-API sudah di deploy pada http://apibasdat.herokuapp.com/
+API sudah di deploy pada https://apibasdat.herokuapp.com/api/v1/internets/welcome
 
 1. Buka Postman
 2. Export postman collections dari folder berikut ke dalam postman di komputer anda
