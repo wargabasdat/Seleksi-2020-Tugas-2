@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "import": "node import-script.js --import",
-    "delete": "node node import-script.js --delete"
+    "delete": "node import-script.js --delete"
   },
   "author": "Fauzan",
   "license": "ISC",
