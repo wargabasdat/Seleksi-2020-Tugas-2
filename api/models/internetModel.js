@@ -25,7 +25,8 @@ const internetSchema = new mongoose.Schema({
   },
   users_region: Number,
   facebook_subs: Number,
-  speed_data: Object
+  speed_data: Object,
+  GNI: Number,
 })
 
 // mongoose model
