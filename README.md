@@ -136,6 +136,7 @@ Link : https://www.youtube.com/watch?v=dL2ZhtTaLK0
 
 4. Berikut adalah salah satu contoh API, yang berfungsi untuk mendapatkan semua data internet dari Database
 https://apibasdat.herokuapp.com/api/v1/internets/
+Untuk API lainnya dapat di lihat di postman collection
 
 <img src="/screenshots/postman3.png" alt="Capture1" width="800"/>
 
