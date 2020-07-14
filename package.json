@@ -1,0 +1,25 @@
+{
+  "name": "seleksi-2020-tugas-2",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">\r   <br>\r   Seleksi 2 Warga Basdat 2020\r   <br>\r   <br>\r </h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatkhanm/Seleksi-2020-Tugas-2.git"
+  },
+  "author": "Fatkhan Masruri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fatkhanm/Seleksi-2020-Tugas-2/issues"
+  },
+  "homepage": "https://github.com/fatkhanm/Seleksi-2020-Tugas-2#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.20"
+  }
+}
