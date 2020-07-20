@@ -41,6 +41,15 @@ db.initialize(dbName, collectionName, function(dbCollection) { // successCallbac
         });
     });
 
+    server.get("/items/bylabel/:label", (request, response) => {
+        const itemLab = request.params.label;
+
+        dbCollection.find({ label: itemLab }).toArray((error, result) => {
+            if (error) throw error;
+            response.json(result);
+        });
+    });
+
 }, function(err) { // failureCallback
     throw (err);
 });
